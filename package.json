@@ -1,21 +1,21 @@
 {
-  "name": "singaporecss.github.io",
+  "name": "web-for-non-techies",
   "version": "1.0.0",
-  "description": "Dependencies for Talk.CSS website",
+  "description": "Dependencies for online version of A non-technical guide to understanding the interet",
   "main": "gulpfile.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/SingaporeCSS/singaporecss.github.io.git"
+    "url": "git+https://github.com/huijing/web-for-non-techies"
   },
   "author": "huijng <kakyou_tensai@yahoo.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/SingaporeCSS/singaporecss.github.io/issues"
+    "url": "https://github.com/huijing/web-for-non-techies/issues"
   },
-  "homepage": "https://github.com/SingaporeCSS/singaporecss.github.io#readme",
+  "homepage": "https://www.chenhuijing.com/web-for-non-techies/",
   "devDependencies": {
     "browser-sync": "^2.11.1",
     "gulp": "^3.9.1",
