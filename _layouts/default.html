@@ -5,9 +5,11 @@
 
   <body>
 
+    {% if page.is_post %}
     {% include header.html %}
+    {% endif %}
 
-    <main class="page-content">
+    <main class="o-inner-wrapper">
       {{ content }}
     </main>
 

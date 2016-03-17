@@ -1,0 +1,43 @@
+// ==========
+// Components
+// ==========
+// Site header styles
+.c-site-header {
+  background-color: map-get($colors, secondary);
+  background-color: color(secondary);
+  border-top: 0.5rem solid map-get($colors, main);
+  border-top: 0.5rem solid color(main);
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.c-site-title {
+  @include responsive-text-size(giga);
+  font-family: $base-font;
+}
+
+// Site footer styles
+.c-site-footer {
+  background: map-get($colors, main);
+  background: color(main);
+  color: map-get($colors, bg);
+  color: color(bg);
+  padding: 1rem 0;
+
+  @include mappy-bp(medium) {
+    padding: 2rem 0;
+  }
+
+  p a {
+    border-bottom: 1px solid map-get($colors, bg);
+    border-bottom: 1px solid color(bg);
+    color: map-get($colors, bg);
+    color: color(bg);
+
+    &:hover {
+      border-bottom: 0;
+      text-shadow: 0 0 0.35px map-get($colors, bg), 0 0 0.35px map-get($colors, bg);
+      text-shadow: 0 0 0.35px color(bg), 0 0 0.35px color(bg);
+    }
+  }
+}

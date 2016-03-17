@@ -1,0 +1,171 @@
+// ========
+// Settings
+// ========
+
+// Susy settings
+@import '../node_modules/susy/sass/susy';
+$susy: (
+  global-box-sizing: border-box,
+);
+
+// Breakpoints
+@import 'lib/mappy-bp';
+$breakpoints: (
+  xsmall: 390px,
+  small: 480px,
+  medium: 768px,
+  large: 1280px,
+);
+
+$textpoints: (
+  small: 590px,
+  large: 768px,
+);
+
+// Fonts
+@charset 'utf-8';
+
+@font-face {
+  font-family: 'Aileron';
+  src: url('../fonts/aileron-regular.eot');
+  src: url('../fonts/aileron-regular.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/aileron-regular.woff2') format('woff2'),
+       url('../fonts/aileron-regular.woff') format('woff'),
+       url('../fonts/aileron-regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Aileron';
+  src: url('../fonts/aileron-italic.eot');
+  src: url('../fonts/aileron-italic.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/aileron-italic.woff2') format('woff2'),
+       url('../fonts/aileron-italic.woff') format('woff'),
+       url('../fonts/aileron-italic.ttf') format('truetype');
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Aileron';
+  src: url('../fonts/aileron-bold.eot');
+  src: url('../fonts/aileron-bold.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/aileron-bold.woff2') format('woff2'),
+       url('../fonts/aileron-bold.woff') format('woff'),
+       url('../fonts/aileron-bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Aileron';
+  src: url('../fonts/aileron-black.eot');
+  src: url('../fonts/aileron-black.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/aileron-black.woff2') format('woff2'),
+       url('../fonts/aileron-black.woff') format('woff'),
+       url('../fonts/aileron-black.ttf') format('truetype');
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Hack';
+  src: url('../fonts/hack-regular.eot');
+  src: url('../fonts/hack-regular.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/hack-regular.woff2') format('woff2'),
+       url('../fonts/hack-regular.woff') format('woff'),
+       url('../fonts/hack-regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+// Base font stacks
+$base-font: 'Aileron', Arial, sans-serif;
+$code-font: 'Hack', Arial, sans-serif;
+
+// Set typography sizes
+$text-sizing: (
+  deci: (
+    small: (
+      font-size: 0.868rem,
+      line-height: 1.5
+    )
+  ),
+  base: (
+    small: (
+      font-size: 1.042rem,
+      line-height: 1.5
+    ),
+    large: (
+      font-size: 1.25rem,
+      line-height: 1.7
+    )
+  ),
+  deca: (
+    small: (
+      font-size: 1.25rem,
+      line-height: 1.5
+    ),
+    large: (
+      font-size: 1.5rem,
+      line-height: 1.5
+    )
+  ),
+  hecto: (
+    small: (
+      font-size: 1.5rem,
+      line-height: 1.5
+    ),
+    large: (
+      font-size: 1.8rem,
+      line-height: 1.5
+    ),
+  ),
+  kilo: (
+    small: (
+      font-size: 1.8rem,
+      line-height: 1.5
+    ),
+    large: (
+      font-size: 2.16rem,
+      line-height: 1.5
+    ),
+  ),
+  mega: (
+    small: (
+      font-size: 2.16rem,
+      line-height: 1.5
+    ),
+    large: (
+      font-size: 2.592rem,
+      line-height: 1.5
+    ),
+  ),
+  giga: (
+    small: (
+      font-size: 3.11rem,
+      line-height: 1.5
+    ),
+    large: (
+      font-size: 3.732rem,
+      line-height: 1.5
+    ),
+  )
+);
+
+// Colours
+$colors: (
+  main: #0c7c59,
+  secondary: #33a9dc,
+  border: #e8e8e8,
+  shadow: rgba(0, 0, 0, 0.3),
+  text: #2b303a,
+  bg: #edfbff,
+  highlight1: #58a4b0,
+  highlight2: #d64933,
+);
+
+// Z-index
+$layers: (
+);

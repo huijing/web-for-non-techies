@@ -13,3 +13,12 @@ twitter_username: hj_chen
 gems:
   - jekyll-sitemap
   - jekyll-paginate
+
+# Site defaults
+defaults:
+  -
+    scope:
+      path: ""      # empty string for all files
+      type: posts   # limit to posts
+    values:
+      is_post: true # automatically set is_post=true for all posts

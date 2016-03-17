@@ -1,0 +1,16 @@
+// ======
+// Trumps
+// ======
+.u-float-left {
+  float: left;
+  margin-right: .85em;
+}
+
+.u-float-right {
+  float: right;
+  margin-left: .85em;
+}
+
+.u-clear {
+  @include cf;
+}

@@ -37,40 +37,40 @@ But let's give some kudos to these smart people and find out a bit more about th
 
 ### The pioneers of the internet
 
-<div class="wrapper">
-<figure class="float-left">
+<div class="u-clear">
+<figure class="u-float-left">
     <img class="center" src="{{ site.baseurl }}/images/licklider.jpeg" srcset="{{ site.baseurl }}/images/licklider@2x.jpeg 2x" alt="Dr J.C.R. Licklider"/>
     <figcaption class="txt-center"><small><em>Dr J.C.R. Licklider</em></small></figcaption>
 </figure>
 <p><strong>Joseph Carl Robnett Licklider</strong>, known among peers as "Lick", was a brilliant psychologist turned computer scientist. While working at MIT in the 1950s, he met a young engineer named Wesley Clark, who introduced him to the Lincoln TX-2 computer. The TX-2 was one of the first machines capable of interactive graphics. Interacting with the TX-2 led him to write his seminal paper <a href="http://groups.csail.mit.edu/medg/people/psz/Licklider.html">"Man Computer Symbiosis"</a> in 1960, which would go on to inspire many of the other internet pioneers. He is widely regarded as the man who revolutionised computer science and came up with the vision of computer networking.</p>
 </div>
 
-<div class="wrapper">
-<figure class="float-right">
+<div class="u-clear">
+<figure class="u-float-right">
     <img class="center" src="{{ site.baseurl }}/images/taylor.jpg" alt="Robert Taylor"/>
     <figcaption class="txt-center"><small><em>Robert Taylor</em></small></figcaption>
 </figure>
 <p><strong>Robert William Taylor</strong>, known as Bob Taylor, was also a psychologist who went into computer research. He had worked with Licklider at ARPA. In 1966, he kickstarted the implementation of Licklider's idea of networked computing with the ARPAnet project. Contrary to popular belief, this project was not motivated by military concerns. Computing resources were silo-ed from each other and researchers ended up duplicating and isolating these expensive resources. A new computing project could range from $500,000 to $3 million, but none of the results or resources could be shared easily. Licklider's vision of one computer being able to tap resources inside another was the concept on which ARPAnet was built on.</p> 
 </div>
 
-<div class="wrapper">
-<figure class="float-left">
+<div class="u-clear">
+<figure class="u-float-left">
     <img class="center" src="{{ site.baseurl }}/images/roberts.jpeg" srcset="{{ site.baseurl }}/images/roberts@2x.jpeg 2x" alt="Dr Lawrence Roberts"/>
     <figcaption class="txt-center"><small><em>Dr Lawrence Roberts</em></small></figcaption>
 </figure>
 <p><strong>Lawrence Gilman Roberts</strong>, often referred to as Larry Roberts, was heavily recruited by Robert Taylor to join ARPA. An extremely smart man, he taught himself the basics of computer design and operations on the TX-0 computer, and wrote the entire operating system for the TX-2 computer at Lincoln. </p>
 </div>
 
-<div class="wrapper">
-<figure class="float-right">
+<div class="u-clear">
+<figure class="u-float-right">
     <img class="center" src="{{ site.baseurl }}/images/baran.jpeg" srcset="{{ site.baseurl }}/images/baran@2x.jpeg 2x" alt="Paul Baran"/>
     <figcaption class="txt-center"><small><em>Paul Baran</em></small></figcaption>
 </figure>
 <p><strong>Paul Baran</strong> was a Polish-American engineer who was one of the first to see that digital computing was the solution to building a robust communications network. He observed that a damaged human brain could, to some extent, recover some functionality by re-creating new pathways to bypass the dysfunctional regions. This concept could be applied toward building a communications network that could survive attack. He also came up with the concept of breaking up the transmissions into packets, which would travel through the network and be reassembled at their destination. A stark contrast against circuit-switching techniques used at the time.</p> 
 </div>
 
-<div class="wrapper">
-<figure class="float-left">
+<div class="u-clear">
+<figure class="u-float-left">
     <img class="center" src="{{ site.baseurl }}/images/davies.jpeg" srcset="{{ site.baseurl }}/images/davies@2x.jpeg 2x" alt="Donald Davies"/>
     <figcaption class="txt-center"><small><em>Donald Davies</em></small></figcaption>
 </figure>
@@ -81,8 +81,8 @@ But let's give some kudos to these smart people and find out a bit more about th
 
 After that history lesson, let's bring it back to the original question, what exactly is the internet? Well, the internet is the entire network of networks that connect all the world's devices to each other. It is made up of various copper cables, fibre-optic cables and wireless networks all across the planet. The internet was built to transfer information, digital information to be exact. Digital information is made up of bits 
 
-<div class="wrapper">
-<figure class="float-right">
+<div class="u-clear">
+<figure class="u-float-right">
     <img class="center" src="{{ site.baseurl }}/images/utility-pole.jpeg" srcset="{{ site.baseurl }}/images/utility-pole@2x.jpeg 2x" alt="Utility pole"/>
     <figcaption class="txt-center"><small><em>The utility pole outside my house</em></small></figcaption>
 </figure>
