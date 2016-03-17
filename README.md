@@ -17,4 +17,4 @@ I want to explain the web in terms that everyone can understand. And to de-mysti
 
 I hope that this book can be an easy-to-digest primer of how things work on the web, as well as provide some insight on dealing with developers. Like me 🤓. 
 
-*Note: this book is open-source and currently work in progress. If you visit often, you will see half-written drafts and some things that make no sense at all. What you're witnessing, is actual work in progress. If you have any suggestions, please let me know. Tweet me ([@hj_chen](https://twitter.com/hj_chen)) or [start a discussion](https://www.gitbook.com/book/huijing/a-non-technical-guide-to-understanding-the-web/discussions) or something.*
+*Note: this book is open-source and currently work in progress. If you visit often, you will see half-written drafts and some things that make no sense at all. What you're witnessing, is actual work in progress. If you have any suggestions, please let me know. Tweet me ([@hj_chen](https://twitter.com/hj_chen)) or [open a GitHub issue](https://github.com/huijing/web-for-non-techies/issues) or something.*
