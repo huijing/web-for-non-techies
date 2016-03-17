@@ -12,9 +12,9 @@ Let's talk about this thing called the **Internet**. Most people know *of* the i
 You may also have heard of something called the **World Wide Web**. Guess what? The Internet and the World Wide Web are *not* the same thing. But you, dear reader, will soon know the difference. Doesn't hurt to know some trivia, right? 
 
 The internet is the entire network of networks that connect all the world's devices to each other. It is the infrastructure that provides a number of services for us to communicate information. The world wide web is one of those services. Examples of other services are things like email, instant messaging or file transfer, just to name a few.
-
+href="{{ "/css/main.css" | prepend: site.baseurl }}"
 <figure>
-    <img class="center" src="/images/internet-infra.jpg" srcset="/images/internet-infra@2x.jpg 2x" alt="The Internet"/>
+    <img class="center" src="/images/internet-infra.jpg | prepend: site.baseurl" srcset="/images/internet-infra@2x.jpg 2x | prepend: site.baseurl" alt="The Internet"/>
     <figcaption class="txt-center"><small><em>There's lots more to the internet than just these though</em></small></figcaption>
 </figure>
 
@@ -23,7 +23,7 @@ The internet has become relatively accessible in this day and age, and it's easy
 Keep in mind that computers in this era were behemoths spanning entire rooms, and were very expensive. Instead of microchips, they ran on vacuum tubes, diodes and transistors. And each of these giant machines had their own proprietary operating systems, which made the sharing of resources and software very challenging. Programs were only usable on the machines they were developed for, and if you wanted a copy on the machine your organisation used, good luck duplicating what you just seen on those other guys' machine. Simplifying this process was one of the motivating factors behind the development of computer networking.
 
 <figure>
-    <img class="center" src="/images/tx2.jpeg" srcset="/images/tx2@2x.jpeg 2x" alt="Lincoln TX-2"/>
+    <img class="center" src="/images/tx2.jpeg | prepend: site.baseurl" srcset="/images/tx2@2x.jpeg 2x | prepend: site.baseurl" alt="Lincoln TX-2"/>
     <figcaption class="txt-center"><small><em>Ivan Sutherland using the Lincoln TX-2 <a href="http://www.computerhistory.org/revolution/input-output/14/349/1878">(Image credit: MIT Museum)</a></em></small></figcaption>
 </figure>
 
@@ -39,7 +39,7 @@ But let's give some kudos to these smart people and find out a bit more about th
 
 <div class="wrapper">
 <figure class="float-left">
-    <img class="center" src="/images/licklider.jpeg" srcset="/images/licklider@2x.jpeg 2x" alt="Dr J.C.R. Licklider"/>
+    <img class="center" src="/images/licklider.jpeg | prepend: site.baseurl" srcset="/images/licklider@2x.jpeg 2x | prepend: site.baseurl" alt="Dr J.C.R. Licklider"/>
     <figcaption class="txt-center"><small><em>Dr J.C.R. Licklider</em></small></figcaption>
 </figure>
 <p><strong>Joseph Carl Robnett Licklider</strong>, known among peers as "Lick", was a brilliant psychologist turned computer scientist. While working at MIT in the 1950s, he met a young engineer named Wesley Clark, who introduced him to the Lincoln TX-2 computer. The TX-2 was one of the first machines capable of interactive graphics. Interacting with the TX-2 led him to write his seminal paper <a href="http://groups.csail.mit.edu/medg/people/psz/Licklider.html">"Man Computer Symbiosis"</a> in 1960, which would go on to inspire many of the other internet pioneers. He is widely regarded as the man who revolutionised computer science and came up with the vision of computer networking.</p>
@@ -47,7 +47,7 @@ But let's give some kudos to these smart people and find out a bit more about th
 
 <div class="wrapper">
 <figure class="float-right">
-    <img class="center" src="/images/taylor.jpg" alt="Robert Taylor"/>
+    <img class="center" src="/images/taylor.jpg | prepend: site.baseurl" alt="Robert Taylor"/>
     <figcaption class="txt-center"><small><em>Robert Taylor</em></small></figcaption>
 </figure>
 <p><strong>Robert William Taylor</strong>, known as Bob Taylor, was also a psychologist who went into computer research. He had worked with Licklider at ARPA. In 1966, he kickstarted the implementation of Licklider's idea of networked computing with the ARPAnet project. Contrary to popular belief, this project was not motivated by military concerns. Computing resources were silo-ed from each other and researchers ended up duplicating and isolating these expensive resources. A new computing project could range from $500,000 to $3 million, but none of the results or resources could be shared easily. Licklider's vision of one computer being able to tap resources inside another was the concept on which ARPAnet was built on.</p> 
@@ -55,7 +55,7 @@ But let's give some kudos to these smart people and find out a bit more about th
 
 <div class="wrapper">
 <figure class="float-left">
-    <img class="center" src="/images/roberts.jpeg" srcset="/images/roberts@2x.jpeg 2x" alt="Dr Lawrence Roberts"/>
+    <img class="center" src="/images/roberts.jpeg | prepend: site.baseurl" srcset="/images/roberts@2x.jpeg 2x | prepend: site.baseurl" alt="Dr Lawrence Roberts"/>
     <figcaption class="txt-center"><small><em>Dr Lawrence Roberts</em></small></figcaption>
 </figure>
 <p><strong>Lawrence Gilman Roberts</strong>, often referred to as Larry Roberts, was heavily recruited by Robert Taylor to join ARPA. An extremely smart man, he taught himself the basics of computer design and operations on the TX-0 computer, and wrote the entire operating system for the TX-2 computer at Lincoln. </p>
@@ -63,7 +63,7 @@ But let's give some kudos to these smart people and find out a bit more about th
 
 <div class="wrapper">
 <figure class="float-right">
-    <img class="center" src="/images/baran.jpeg" srcset="/images/baran@2x.jpeg 2x" alt="Paul Baran"/>
+    <img class="center" src="/images/baran.jpeg | prepend: site.baseurl" srcset="/images/baran@2x.jpeg 2x | prepend: site.baseurl" alt="Paul Baran"/>
     <figcaption class="txt-center"><small><em>Paul Baran</em></small></figcaption>
 </figure>
 <p><strong>Paul Baran</strong> was a Polish-American engineer who was one of the first to see that digital computing was the solution to building a robust communications network. He observed that a damaged human brain could, to some extent, recover some functionality by re-creating new pathways to bypass the dysfunctional regions. This concept could be applied toward building a communications network that could survive attack. He also came up with the concept of breaking up the transmissions into packets, which would travel through the network and be reassembled at their destination. A stark contrast against circuit-switching techniques used at the time.</p> 
@@ -71,7 +71,7 @@ But let's give some kudos to these smart people and find out a bit more about th
 
 <div class="wrapper">
 <figure class="float-left">
-    <img class="center" src="/images/davies.jpeg" srcset="/images/davies@2x.jpeg 2x" alt="Donald Davies"/>
+    <img class="center" src="/images/davies.jpeg | prepend: site.baseurl" srcset="/images/davies@2x.jpeg 2x | prepend: site.baseurl" alt="Donald Davies"/>
     <figcaption class="txt-center"><small><em>Donald Davies</em></small></figcaption>
 </figure>
 <p><strong>Donald Watts Davies</strong>, was a Welsh computer scientist, who also conceived of the idea of packet switching. It was highly coincidental that both Davies and Baran came up with the same idea independent of one another. </p>
@@ -83,7 +83,7 @@ After that history lesson, let's bring it back to the original question, what ex
 
 <div class="wrapper">
 <figure class="float-right">
-    <img class="center" src="/images/utility-pole.jpeg" srcset="/images/utility-pole@2x.jpeg 2x" alt="Utility pole"/>
+    <img class="center" src="/images/utility-pole.jpeg | prepend: site.baseurl" srcset="/images/utility-pole@2x.jpeg 2x | prepend: site.baseurl" alt="Utility pole"/>
     <figcaption class="txt-center"><small><em>The utility pole outside my house</em></small></figcaption>
 </figure>
 <p>There is a phrase used in telecommunications called "last mile" or "last kilometre" which refers to the part of the telecommunications network that is responsible for delivery to the end-user, like you and me. For example, those cables up on the utility poles along roads, or cell towers that broadcast to your mobile phones. For wired telecommunications, copper cables are commonly for the "last mile" infrastructure.</p>
@@ -95,7 +95,7 @@ Many countries are investing in "Fibre to the *x*" (FTTX) infrastructure. *X* in
 All the global submarine internet cables are fibre-optic cables. It is the only viable option for transmitting data across continents along the ocean floor reliably. You may be surprised (or not) to find that the locations of these cables are pretty easy to pin-point. Some of them are even out in the open, laying on some beach along various coasts around the world. But these cables are what allow a Skype call from Singapore to Argentina, or a text from San Francisco to Malaysia.
 
 <figure>
-    <img class="center" src="/images/submarine-cables.jpeg" srcset="/images/submarine-cables@2x.jpeg 2x" alt="Global submarine cables"/>
+    <img class="center" src="/images/submarine-cables.jpeg | prepend: site.baseurl" srcset="/images/submarine-cables@2x.jpeg 2x | prepend: site.baseurl" alt="Global submarine cables"/>
     <figcaption class="txt-center"><small><em>Map of global submarine cables as of 28 Jan 2016 <a href="http://www.submarinecablemap.com/">(Image credit: Telegeography)</a></em></small></figcaption>
 </figure>
 
