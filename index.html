@@ -1,0 +1,30 @@
+---
+layout: default
+---
+<div class="home">
+  <ul class="post-list">
+    {% for category in site.categories %}
+    <li class="{{ category | first }}">{{ category | first }}
+      <ul>
+      {% for posts in category %}
+        {% for post in posts reversed %}
+        <h2>
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
+            {{ post.title }}
+          </a>
+        </h2>
+        <p>{{ post.subtitle }}</p>
+        {% endfor %}
+      {% endfor %}
+      </ul>
+    </li>
+  {% endfor %}
+  </ul>
+
+  <p class="rss-subscribe">
+    subscribe
+    <a href="{{ "/feed.xml" | prepend: site.baseurl }}">
+      via RSS
+    </a>
+  </p>
+</div>

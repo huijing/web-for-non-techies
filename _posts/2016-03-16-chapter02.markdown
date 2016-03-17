@@ -1,0 +1,62 @@
+---
+layout: post
+title:  "Chapter 2"
+subtitle: "Internet-related jargon demystified"
+date:   2016-03-16 18:04:57 +0800
+categories: internet
+---
+# Internet-related jargon demystified
+
+As with all technology, the internet comes with a long list of terms and acronyms that probably don't mean much to the average person on the street. But trust me, all that jargon can be translated into plain English, which I hope you understand, because multi-language support for this book is not coming any time soon.
+
+### Protocol
+
+Communication networks can function because of something known as protocols, the most crucial aspect of telecommunications. A **protocol** is an agreed set of rules and standards that allow devices to communicate with each other. Connectivity is something most people don't think twice about these days, in fact, some people *expect* their devices to all speak to one another. But just a few decades ago, computers couldn't even talk to each other. Some really smart people (refer to the [section on Internet Pioneers](./chapter1.html#the-pioneers-of-the-internet)  in chapter 1) came up with these protocols that allowed devices to share information with each other. There are many different protocols now, and the number will probably keep growing as we develop faster and more efficient methods.
+
+<figure>
+    <table class="nomargin">
+        <thead>
+            <tr>
+                <th>Protocol</th>
+                <th>Description</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Internet Protocol (IP)</td>
+                <td>To route information to the proper address</td>
+            </tr>
+            <tr>
+                <td>Transmission Control Protocol (TCP)</td>
+                <td>To create packets, reassemble them, make sure none were lost in transmission</td>
+            </tr>
+            <tr>
+                <td>Post Office Protocol (POP)</td>
+                <td>For computers to receive email</td>
+            </tr>
+            <tr>
+                <td>Simple Mail Transfer Protocol (SMTP)</td>
+                <td>For computers to send email</td>
+            </tr>
+            <tr>
+                <td>File Transfer Protocol (FTP)</td>
+                <td>For copying files over a network from one computer to another</td>
+            </tr>
+            <tr>
+                <td>Hypertext Transfer Protocol (HTTP)</td>
+                <td>For the transmission of web pages over the internet</td>
+            </tr>
+        </tbody>
+    </table>
+    <figcaption class="txt-center"><small><em>Examples of common protocols</em></small></figcaption>
+</figure>
+
+### Server
+
+A server is a computer which is connected directly to the internet. The confusing part about servers is that it can refer to either the hardware, i.e. the actual physical computer which acts as a server. Or the software application that allows the computer to do its job as a server. But the word server means just that. The computer serves up what is requested of it.
+
+### Client
+
+A client any device, be it computer, tablet or phone, which is connected to the internet. The difference is that the client has to go through an **Internet Service Provider (ISP)** to do that. 
+
+### Application Programming Interface (API)

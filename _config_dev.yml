@@ -1,0 +1,24 @@
+# Site settings
+title: A non-technical guide to understanding the web
+email: kakyou_tensai@yahoo.com
+description: An introduction to the web and how it works for the non-programmer.
+baseurl: ""
+url: "http://localhost:7855"
+
+permalink: /:title/
+
+github_username: huijing
+twitter_username: hj_chen
+
+# Build settings
+gems:
+  - jekyll-sitemap
+  - jekyll-paginate
+
+# Exclude files and folder
+exclude:
+  - node_modules
+  - gulpfile.js
+  - package.json
+  - bower.json
+  - bower_components

@@ -1,0 +1,15 @@
+# Site settings
+title: A non-technical guide to understanding the web
+email: kakyou_tensai@yahoo.com
+description: An introduction to the web and how it works for the non-programmer.
+baseurl: /web-for-non-techies
+
+permalink: /:title/
+
+github_username: huijing
+twitter_username: hj_chen
+
+# Build settings
+gems:
+  - jekyll-sitemap
+  - jekyll-paginate

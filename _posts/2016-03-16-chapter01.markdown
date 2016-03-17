@@ -1,0 +1,120 @@
+---
+layout: post
+title:  "Chapter 1"
+subtitle: "What is the internet?"
+date:   2016-03-16 18:04:57 +0800
+categories: "internet"
+---
+# What is the internet?
+
+Let's talk about this thing called the **Internet**. Most people know *of* the internet. According to [Internet World Stats](http://www.internetworldstats.com/stats.htm), as of November 2015, there are around 3.3 billion internet users in the world. That's about 40% of the world's population. So we can surmise that a lot of people *use* the internet as well. But what is it? Don't worry if you can't answer the question. Turns out, [millions of people who use facebook](http://qz.com/333313/milliions-of-facebook-users-have-no-idea-theyre-using-the-internet/) don't know they are using the internet.
+
+You may also have heard of something called the **World Wide Web**. Guess what? The Internet and the World Wide Web are *not* the same thing. But you, dear reader, will soon know the difference. Doesn't hurt to know some trivia, right? 
+
+The internet is the entire network of networks that connect all the world's devices to each other. It is the infrastructure that provides a number of services for us to communicate information. The world wide web is one of those services. Examples of other services are things like email, instant messaging or file transfer, just to name a few.
+
+<figure>
+    <img class="center" src="/images/internet-infra.jpg" srcset="/images/internet-infra@2x.jpg 2x" alt="The Internet"/>
+    <figcaption class="txt-center"><small><em>There's lots more to the internet than just these though</em></small></figcaption>
+</figure>
+
+The internet has become relatively accessible in this day and age, and it's easy to take connectivity for granted. But if you stop and think about it, the fact that it works at all, that someone can send an instant message from South Africa to London using their smart-phone during their commute, is really amazing. Just half a century ago, this was far from a reality.
+
+Keep in mind that computers in this era were behemoths spanning entire rooms, and were very expensive. Instead of microchips, they ran on vacuum tubes, diodes and transistors. And each of these giant machines had their own proprietary operating systems, which made the sharing of resources and software very challenging. Programs were only usable on the machines they were developed for, and if you wanted a copy on the machine your organisation used, good luck duplicating what you just seen on those other guys' machine. Simplifying this process was one of the motivating factors behind the development of computer networking.
+
+<figure>
+    <img class="center" src="/images/tx2.jpeg" srcset="/images/tx2@2x.jpeg 2x" alt="Lincoln TX-2"/>
+    <figcaption class="txt-center"><small><em>Ivan Sutherland using the Lincoln TX-2 <a href="http://www.computerhistory.org/revolution/input-output/14/349/1878">(Image credit: MIT Museum)</a></em></small></figcaption>
+</figure>
+
+## A brief history of the internet and its pioneers
+
+If we go back to the beginning, we'll find that the internet had its roots in the military. Many technological advances were driven by military needs, and later evolved to have non-military uses. The internet is one of them. The 20th century was pretty tumultuous, somehow one World War wasn't enough, so we had another one. The Advanced Research Projects Agency (ARPA) was [set up in 1958](http://www.darpa.mil/about-us/timeline/where-the-future-becomes-now) by the United States government in response to the Soviets launching Sputnik 1. Basically, it was part of a military technology arms race. 
+
+**The TL:DR version of things is, the best and brightest minds were brought in to work for the U.S. military. And they came up with a way for computers to share information easily.**
+
+But let's give some kudos to these smart people and find out a bit more about them. Without these Internet Pioneers, you wouldn't be reading this book (because it's online only <span class="no-wrap">¯\\\_(ツ)\_/¯</span>). A lot of the information below is referenced from the excellent book *[Where Wizards Stay Up Late: The Origins Of The Internet](http://www.amazon.com/Where-Wizards-Stay-Up-Late/dp/0684832674)* by [Katie Hafner](http://katiehafner.com/books/where-wizards-stay-up-late/), which I highly recommend you read.
+
+### The pioneers of the internet
+
+<div class="wrapper">
+<figure class="float-left">
+    <img class="center" src="/images/licklider.jpeg" srcset="/images/licklider@2x.jpeg 2x" alt="Dr J.C.R. Licklider"/>
+    <figcaption class="txt-center"><small><em>Dr J.C.R. Licklider</em></small></figcaption>
+</figure>
+<p><strong>Joseph Carl Robnett Licklider</strong>, known among peers as "Lick", was a brilliant psychologist turned computer scientist. While working at MIT in the 1950s, he met a young engineer named Wesley Clark, who introduced him to the Lincoln TX-2 computer. The TX-2 was one of the first machines capable of interactive graphics. Interacting with the TX-2 led him to write his seminal paper <a href="http://groups.csail.mit.edu/medg/people/psz/Licklider.html">"Man Computer Symbiosis"</a> in 1960, which would go on to inspire many of the other internet pioneers. He is widely regarded as the man who revolutionised computer science and came up with the vision of computer networking.</p>
+</div>
+
+<div class="wrapper">
+<figure class="float-right">
+    <img class="center" src="/images/taylor.jpg" alt="Robert Taylor"/>
+    <figcaption class="txt-center"><small><em>Robert Taylor</em></small></figcaption>
+</figure>
+<p><strong>Robert William Taylor</strong>, known as Bob Taylor, was also a psychologist who went into computer research. He had worked with Licklider at ARPA. In 1966, he kickstarted the implementation of Licklider's idea of networked computing with the ARPAnet project. Contrary to popular belief, this project was not motivated by military concerns. Computing resources were silo-ed from each other and researchers ended up duplicating and isolating these expensive resources. A new computing project could range from $500,000 to $3 million, but none of the results or resources could be shared easily. Licklider's vision of one computer being able to tap resources inside another was the concept on which ARPAnet was built on.</p> 
+</div>
+
+<div class="wrapper">
+<figure class="float-left">
+    <img class="center" src="/images/roberts.jpeg" srcset="/images/roberts@2x.jpeg 2x" alt="Dr Lawrence Roberts"/>
+    <figcaption class="txt-center"><small><em>Dr Lawrence Roberts</em></small></figcaption>
+</figure>
+<p><strong>Lawrence Gilman Roberts</strong>, often referred to as Larry Roberts, was heavily recruited by Robert Taylor to join ARPA. An extremely smart man, he taught himself the basics of computer design and operations on the TX-0 computer, and wrote the entire operating system for the TX-2 computer at Lincoln. </p>
+</div>
+
+<div class="wrapper">
+<figure class="float-right">
+    <img class="center" src="/images/baran.jpeg" srcset="/images/baran@2x.jpeg 2x" alt="Paul Baran"/>
+    <figcaption class="txt-center"><small><em>Paul Baran</em></small></figcaption>
+</figure>
+<p><strong>Paul Baran</strong> was a Polish-American engineer who was one of the first to see that digital computing was the solution to building a robust communications network. He observed that a damaged human brain could, to some extent, recover some functionality by re-creating new pathways to bypass the dysfunctional regions. This concept could be applied toward building a communications network that could survive attack. He also came up with the concept of breaking up the transmissions into packets, which would travel through the network and be reassembled at their destination. A stark contrast against circuit-switching techniques used at the time.</p> 
+</div>
+
+<div class="wrapper">
+<figure class="float-left">
+    <img class="center" src="/images/davies.jpeg" srcset="/images/davies@2x.jpeg 2x" alt="Donald Davies"/>
+    <figcaption class="txt-center"><small><em>Donald Davies</em></small></figcaption>
+</figure>
+<p><strong>Donald Watts Davies</strong>, was a Welsh computer scientist, who also conceived of the idea of packet switching. It was highly coincidental that both Davies and Baran came up with the same idea independent of one another. </p>
+</div>
+
+## Devices, cables and radio waves
+
+After that history lesson, let's bring it back to the original question, what exactly is the internet? Well, the internet is the entire network of networks that connect all the world's devices to each other. It is made up of various copper cables, fibre-optic cables and wireless networks all across the planet. The internet was built to transfer information, digital information to be exact. Digital information is made up of bits 
+
+<div class="wrapper">
+<figure class="float-right">
+    <img class="center" src="/images/utility-pole.jpeg" srcset="/images/utility-pole@2x.jpeg 2x" alt="Utility pole"/>
+    <figcaption class="txt-center"><small><em>The utility pole outside my house</em></small></figcaption>
+</figure>
+<p>There is a phrase used in telecommunications called "last mile" or "last kilometre" which refers to the part of the telecommunications network that is responsible for delivery to the end-user, like you and me. For example, those cables up on the utility poles along roads, or cell towers that broadcast to your mobile phones. For wired telecommunications, copper cables are commonly for the "last mile" infrastructure.</p>
+<p>You know those ethernet cables connected to your computer? Those are copper cables, twisted copper cables. Copper is used because it has the highest electrical conductivity of all non-precious metals. Your bits of data are transmitted across these copper cables as electrical pulses, but copper cabling is susceptible to electromagnetic interference from other cables and power wires. In fact, the maximum viable length of a single ethernet cable is around 100 metres. Cable internet gets its name from the fact that it transmits data over the same cables that transmit cable television.</p>
+</div>
+
+Many countries are investing in "Fibre to the *x*" (FTTX) infrastructure. *X* in this case can refer to *H* for home, *B* for business and so on. Fibre-optic cables are made of glass, engineered to reflect light signals across very long distances without much degradation. And they can carry a lot more data than copper cables. The downside, at least for now, is that fibre-optic components are expensive, because the manufacturing process is pretty labour-intensive. There is an observable transition from copper to fibre though, as demand for high-speed internet continues to grow exponentially.
+
+All the global submarine internet cables are fibre-optic cables. It is the only viable option for transmitting data across continents along the ocean floor reliably. You may be surprised (or not) to find that the locations of these cables are pretty easy to pin-point. Some of them are even out in the open, laying on some beach along various coasts around the world. But these cables are what allow a Skype call from Singapore to Argentina, or a text from San Francisco to Malaysia.
+
+<figure>
+    <img class="center" src="/images/submarine-cables.jpeg" srcset="/images/submarine-cables@2x.jpeg 2x" alt="Global submarine cables"/>
+    <figcaption class="txt-center"><small><em>Map of global submarine cables as of 28 Jan 2016 <a href="http://www.submarinecablemap.com/">(Image credit: Telegeography)</a></em></small></figcaption>
+</figure>
+
+## Who takes care of the internet?
+
+The internet in its entirety is not owned by anyone. Part of the physical infrastructure are owned by many different corporations, governments, schools, organisations, even private citizens. Given the disparate nature of ownership, there are several organisations in charge of internet-related standards, and pushing to improve the internet for everyone. The key organisation is the [Internet Society (ISOC)](http://www.internetsociety.org/), an international, non-profit, membership organisation that fosters the expansion of the Internet by providing financial and legal support for the following groups:
+
+- [Internet Engineering Task Force (IETF)](https://www.ietf.org/)
+- [Internet Engineering Steering Group (IESG)](https://www.ietf.org/iesg/)
+- [Internet Architecture Board (IAB)](https://www.iab.org/)
+- [Internet Assigned Numbers Authority (IANA)](http://www.iana.org/)    
+- [RFC Editor](https://www.rfc-editor.org/)
+- [IETF Secretariat](https://www.ietf.org/secretariat.html)
+- [IETF Trust](http://trustee.ietf.org/)
+
+## Related resources
+- [Where Wizards Stay Up Late: The Origins Of The Internet](http://www.amazon.com/Where-Wizards-Stay-Up-Late/dp/0684832674) by [Katie Hafner](http://katiehafner.com/books/where-wizards-stay-up-late/) (*Widely considered to be THE definitive book on internet history*)
+- [Brief history of the internet](http://www.internetsociety.org/internet/what-internet/history-internet/brief-history-internet) by [Internet Society](http://www.internetsociety.org/)
+- [Internet World Stats](http://www.internetworldstats.com/stats.htm) by [Miniwatts Marketing Group](http://www.miniwatts.com/)
+- [What is the internet?](http://www.20thingsilearned.com/en-US/what-is-the-internet/1) by the [Google Chrome Team](http://www.google.com/chrome?brand=CHJN)
+- [Interview with Walter Isaacson](https://youtu.be/rRqLSiLuQgA) by [Talks at Google](https://www.youtube.com/channel/UCbmNph6atAoGfqLoCL_duAg) (*He's the author of The Innovators: How a Group of Hackers, Geniuses, and Geeks Created the Digital Revolution*)
+- [How to Destroy the Internet](http://gizmodo.com/5912383/how-to-destroy-the-internet) by [Sam Biddle](http://www.sambiddle.com/)
