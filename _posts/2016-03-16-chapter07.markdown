@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "Chapter 7"
-subtitle: "Angry developer syndrome"
+chapter: "Chapter 7"
+title: "Angry developer syndrome"
 date:   2016-03-16 18:04:57 +0800
 categories: work
 ---
-# Angry developer syndrome
+

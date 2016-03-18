@@ -1,12 +1,10 @@
 ---
 layout: post
-title:  "Chapter 2"
-subtitle: "Internet-related jargon demystified"
+chapter: "Chapter 2"
+title: "Internet-related jargon demystified"
 date:   2016-03-16 18:04:57 +0800
 categories: internet
 ---
-# Internet-related jargon demystified
-
 As with all technology, the internet comes with a long list of terms and acronyms that probably don't mean much to the average person on the street. But trust me, all that jargon can be translated into plain English, which I hope you understand, because multi-language support for this book is not coming any time soon.
 
 ### Protocol

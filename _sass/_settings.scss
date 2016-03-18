@@ -88,67 +88,71 @@ $code-font: 'Hack', Arial, sans-serif;
 $text-sizing: (
   deci: (
     small: (
-      font-size: 0.868rem,
+      font-size: 0.889rem,
+      line-height: 1.5
+    ),
+    large: (
+      font-size: 1.111rem,
       line-height: 1.5
     )
   ),
   base: (
     small: (
-      font-size: 1.042rem,
+      font-size: 1rem,
       line-height: 1.5
     ),
     large: (
       font-size: 1.25rem,
-      line-height: 1.7
+      line-height: 1.5
     )
   ),
   deca: (
     small: (
-      font-size: 1.25rem,
+      font-size: 1.125rem,
       line-height: 1.5
     ),
     large: (
-      font-size: 1.5rem,
+      font-size: 1.406rem,
       line-height: 1.5
     )
   ),
   hecto: (
     small: (
-      font-size: 1.5rem,
+      font-size: 1.266rem,
       line-height: 1.5
     ),
     large: (
-      font-size: 1.8rem,
+      font-size: 1.582rem,
       line-height: 1.5
     ),
   ),
   kilo: (
     small: (
-      font-size: 1.8rem,
+      font-size: 1.424rem,
       line-height: 1.5
     ),
     large: (
-      font-size: 2.16rem,
+      font-size: 1.78rem,
       line-height: 1.5
     ),
   ),
   mega: (
     small: (
-      font-size: 2.16rem,
+      font-size: 1.602rem,
       line-height: 1.5
     ),
     large: (
-      font-size: 2.592rem,
+      font-size: 2.002rem,
       line-height: 1.5
     ),
   ),
   giga: (
     small: (
-      font-size: 3.11rem,
+      font-size: 1.802rem,
       line-height: 1.5
     ),
     large: (
-      font-size: 3.732rem,
+      font-size: 2.253rem,
       line-height: 1.5
     ),
   )
@@ -157,13 +161,12 @@ $text-sizing: (
 // Colours
 $colors: (
   main: #0c7c59,
-  secondary: #33a9dc,
+  secondary: #58a4b0,
   border: #e8e8e8,
   shadow: rgba(0, 0, 0, 0.3),
   text: #2b303a,
   bg: #edfbff,
-  highlight1: #58a4b0,
-  highlight2: #d64933,
+  highlight1: #d64933,
 );
 
 // Z-index

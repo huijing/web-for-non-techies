@@ -1,12 +1,10 @@
 ---
 layout: post
-title:  "Chapter 3"
-subtitle: "How does the internet work?"
+chapter: "Chapter 3"
+title: "How does the internet work?"
 date:   2016-03-16 18:04:57 +0800
 categories: internet
 ---
-# How does the internet work?
-
 Now that we've established that the internet is actually just an enormous network of networks that connects devices all over the world together, let's try to understand how that is actually possible.
  
 Bandwidth - transmission capacity, measured by bitrate

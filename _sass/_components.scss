@@ -1,25 +1,28 @@
 // ==========
 // Components
 // ==========
-// Site header styles
-.c-site-header {
-  background-color: map-get($colors, secondary);
-  background-color: color(secondary);
-  border-top: 0.5rem solid map-get($colors, main);
-  border-top: 0.5rem solid color(main);
-  margin-bottom: 1.5rem;
-  text-align: center;
+.c-chapters {
+  counter-reset: li;
+  margin-left: 2rem;
+  padding: 0;
 }
 
-.c-site-title {
-  @include responsive-text-size(giga);
-  font-family: $base-font;
-}
+.c-chapter {
+  position: relative;
 
+  &::before {
+    content: counter(li) '.';
+    counter-increment: li;
+    position: absolute;
+    width: 2rem;
+    text-align: right;
+    left: -2.5rem;
+  }
+}
 // Site footer styles
 .c-site-footer {
-  background: map-get($colors, main);
-  background: color(main);
+  background: map-get($colors, secondary);
+  background: color(secondary);
   color: map-get($colors, bg);
   color: color(bg);
   padding: 1rem 0;

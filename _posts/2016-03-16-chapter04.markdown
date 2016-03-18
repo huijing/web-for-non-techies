@@ -1,10 +1,8 @@
 ---
 layout: post
-title:  "Chapter 4"
-subtitle: "Why do things look different on every browser?"
+chapter: "Chapter 4"
+title: "Why do things look different on every browser?"
 date:   2016-03-16 18:04:57 +0800
 categories: internet
 ---
-# Why do things look different on every browser?
-
 Let's talk a little bit about how stuff shows up on your computer screen. 

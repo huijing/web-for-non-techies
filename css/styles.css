@@ -112,13 +112,12 @@ img {
 
 :root {
   --main-color: #0c7c59;
-  --secondary-color: #33a9dc;
+  --secondary-color: #58a4b0;
   --border-color: #e8e8e8;
   --shadow-color: rgba(0, 0, 0, 0.3);
   --text-color: #2b303a;
   --bg-color: #edfbff;
-  --highlight1-color: #58a4b0;
-  --highlight2-color: #d64933; }
+  --highlight1-color: #d64933; }
 
 html {
   -webkit-box-sizing: border-box;
@@ -127,7 +126,7 @@ html {
   min-width: 320px; }
 
 body {
-  font-size: 1.042rem;
+  font-size: 1rem;
   line-height: 1.5;
   background-color: #edfbff;
   background-color: var(--bg-color, #edfbff);
@@ -142,7 +141,7 @@ body {
   @media screen and (min-width: 768px) {
     body {
       font-size: 1.25rem;
-      line-height: 1.7; } }
+      line-height: 1.5; } }
 
 hr {
   margin-bottom: 1.5rem; }
@@ -157,72 +156,80 @@ p a {
     text-shadow: 0 0 0.35px var(--main-color, #0c7c59), 0 0 0.35px var(--main-color, #0c7c59); }
 
 h1 {
-  font-size: 2.16rem;
+  font-size: 1.602rem;
   line-height: 1.5;
   margin-bottom: 1rem; }
   @media screen and (min-width: 768px) {
     h1 {
-      font-size: 2.592rem;
+      font-size: 2.002rem;
       line-height: 1.5; } }
 
 h2 {
-  font-size: 1.8rem;
+  font-size: 1.424rem;
   line-height: 1.5;
   margin-bottom: 1rem; }
   @media screen and (min-width: 768px) {
     h2 {
-      font-size: 2.16rem;
+      font-size: 1.78rem;
       line-height: 1.5; } }
 
 h3 {
-  font-size: 1.5rem;
+  font-size: 1.266rem;
   line-height: 1.5;
   margin-bottom: 1rem; }
   @media screen and (min-width: 768px) {
     h3 {
-      font-size: 1.8rem;
+      font-size: 1.582rem;
       line-height: 1.5; } }
 
 h4 {
-  font-size: 1.25rem;
+  font-size: 1.125rem;
   line-height: 1.5;
   margin-bottom: 1rem; }
   @media screen and (min-width: 768px) {
     h4 {
-      font-size: 1.5rem;
+      font-size: 1.406rem;
       line-height: 1.5; } }
 
 h5 {
-  font-size: 1.042rem;
+  font-size: 1rem;
   line-height: 1.5;
   margin-bottom: 1rem; }
   @media screen and (min-width: 768px) {
     h5 {
       font-size: 1.25rem;
-      line-height: 1.7; } }
+      line-height: 1.5; } }
 
 small {
-  font-size: 0.868rem;
+  font-size: 0.889rem;
   line-height: 1.5; }
+  @media screen and (min-width: 768px) {
+    small {
+      font-size: 1.111rem;
+      line-height: 1.5; } }
 
 p {
-  font-size: 1.042rem;
+  font-size: 1rem;
   line-height: 1.5;
   margin-bottom: 1.5rem; }
   @media screen and (min-width: 768px) {
     p {
       font-size: 1.25rem;
-      line-height: 1.7; } }
+      line-height: 1.5; } }
 
 ul {
   margin-bottom: 1.5rem; }
 
 figcaption {
-  font-size: 0.868rem;
+  font-size: 0.889rem;
   line-height: 1.5;
   margin-bottom: 1.5rem;
   font-style: italic;
   text-align: center; }
+  @media screen and (min-width: 768px) {
+    figcaption {
+      font-size: 1.111rem;
+      line-height: 1.5; } }
 
 figure img {
   float: none;
@@ -389,26 +396,24 @@ figure img {
     fill: #edfbff;
     fill: var(--bg-color, #edfbff); }
 
-.c-site-header {
-  background-color: #33a9dc;
-  background-color: var(--secondary-color, #33a9dc);
-  border-top: 0.5rem solid #0c7c59;
-  border-top: 0.5rem solid var(--main-color, #0c7c59);
-  margin-bottom: 1.5rem;
-  text-align: center; }
+.c-chapters {
+  counter-reset: li;
+  margin-left: 2rem;
+  padding: 0; }
 
-.c-site-title {
-  font-size: 3.11rem;
-  line-height: 1.5;
-  font-family: "Aileron", Arial, sans-serif; }
-  @media screen and (min-width: 768px) {
-    .c-site-title {
-      font-size: 3.732rem;
-      line-height: 1.5; } }
+.c-chapter {
+  position: relative; }
+  .c-chapter::before {
+    content: counter(li) ".";
+    counter-increment: li;
+    position: absolute;
+    width: 2rem;
+    text-align: right;
+    left: -2.5rem; }
 
 .c-site-footer {
-  background: #0c7c59;
-  background: var(--main-color, #0c7c59);
+  background: #58a4b0;
+  background: var(--secondary-color, #58a4b0);
   color: #edfbff;
   color: var(--bg-color, #edfbff);
   padding: 1rem 0; }

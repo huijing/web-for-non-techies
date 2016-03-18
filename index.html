@@ -1,34 +1,23 @@
 ---
 layout: default
 ---
-<section class="c-hero">
-  <h1>
-    A non-technical guide to understanding the internet
-  </h1>
-  <p>
-    This is an introduction to the web and how it works for the non-programmer.
-  </p>
-</section>
 <section>
-  <p>
-    The book aims to be an easy-to-digest primer of how things work on the web, as well as provide some insight on dealing with developers. Like me 🤓.
-  </p>
+  <h1 class="c-hero__title">A non-technical guide to understanding the internet</h1>
+  <p class="c-hero__desc">This is an introduction to the web and how it works for the non-programmer.</p>
+</section>
+
+<section>
+  <p>The book aims to be an easy-to-digest primer of how things work on the web, as well as provide some insight on dealing with developers. Like me 🤓.</p>
   <img src=""/>
 </section>
-<h2>
-  Contents
-</h2>
-<ul class="post-list">
-  {% for post in site.posts reversed %}
-  <li>
-    <h2>
-      <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
-        {{ post.title }}
-      </a>
-    </h2>
-    <p>
-      {{ post.subtitle }}
-    </p>
-  </li>
-  {% endfor %}
-</ul>
+
+<section>
+  <h2>Contents</h2>
+  <ol class="c-chapters">
+    {% for post in site.posts reversed %}
+    <li class="c-chapter">
+      <a class="c-chapter-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+    </li>
+    {% endfor %}
+  </ol>
+</section>
