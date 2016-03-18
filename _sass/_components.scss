@@ -1,6 +1,8 @@
 // ==========
 // Components
 // ==========
+
+// Home page styles
 .c-chapters {
   counter-reset: li;
   margin-left: 2rem;
@@ -8,17 +10,75 @@
 }
 
 .c-chapter {
+  margin-bottom: 1rem;
   position: relative;
+}
+
+.c-chapter-link {
+  margin-left: 1rem;
+
+  &:hover {
+    border-bottom: 1px solid map-get($colors, highlight1);
+    border-bottom: 1px solid color(highlight1);
+    color: map-get($colors, highlight1);
+    color: color(highlight1);
+  }
 
   &::before {
-    content: counter(li) '.';
+    background: map-get($colors, secondary);
+    background: color(secondary);
+    border-radius: 50%;
+    color: map-get($colors, bg);
+    color: color(bg);
+    content: counter(li);
     counter-increment: li;
+    font-size: 0.7em;
+    height: 2rem;
+    left: -2rem;
+    line-height: 2rem;
     position: absolute;
+    text-align: center;
     width: 2rem;
-    text-align: right;
-    left: -2.5rem;
   }
 }
+
+// Chapter styles
+.c-chapter-number {
+
+}
+.c-chapter-content {
+  a {
+    color: map-get($colors, main);
+    color: color(main);
+    transition: all 0.2s;
+
+    &:hover {
+      text-shadow: 0 0 0.35px map-get($colors, main), 0 0 0.35px map-get($colors, main);
+      text-shadow: 0 0 0.35px color(main), 0 0 0.35px color(main);
+    }
+  }
+
+  li {
+    display: list-item;
+    line-height: 1.5;
+    margin-left: 1.5rem;
+  }
+
+  figcaption {
+    @include responsive-text-size(deci);
+    font-style: italic;
+    margin-bottom: 1.5rem;
+    text-align: center;
+  }
+
+  figure {
+    img {
+      @include center;
+      display: block;
+    }
+  }
+}
+
 // Site footer styles
 .c-site-footer {
   background: map-get($colors, secondary);
@@ -28,19 +88,19 @@
   padding: 1rem 0;
 
   @include mappy-bp(medium) {
-    padding: 2rem 0;
+    padding: 2rem 0 0;
   }
+}
 
-  p a {
-    border-bottom: 1px solid map-get($colors, bg);
-    border-bottom: 1px solid color(bg);
-    color: map-get($colors, bg);
-    color: color(bg);
+.c-footer-link {
+  border-bottom: 1px solid map-get($colors, bg);
+  border-bottom: 1px solid color(bg);
+  color: map-get($colors, bg);
+  color: color(bg);
 
-    &:hover {
-      border-bottom: 0;
-      text-shadow: 0 0 0.35px map-get($colors, bg), 0 0 0.35px map-get($colors, bg);
-      text-shadow: 0 0 0.35px color(bg), 0 0 0.35px color(bg);
-    }
+  &:hover {
+    border-bottom: 0;
+    text-shadow: 0 0 0.35px map-get($colors, bg), 0 0 0.35px map-get($colors, bg);
+    text-shadow: 0 0 0.35px color(bg), 0 0 0.35px color(bg);
   }
 }

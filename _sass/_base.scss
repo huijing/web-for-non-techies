@@ -39,16 +39,6 @@ ul {
   margin-bottom: 1.5rem;
 }
 
-figcaption {
-  @include responsive-text-size(deci);
+hr {
   margin-bottom: 1.5rem;
-  font-style: italic;
-  text-align: center;
-}
-
-figure {
-  img {
-    @include center;
-    display: block;
-  }
 }

@@ -2,7 +2,7 @@
 // Objects
 // =======
 .o-inner-wrapper {
-  @include container(60rem);
+  @include container(45rem);
   padding: 0 1rem;
 }
 
@@ -18,5 +18,14 @@
   path {
     fill: map-get($colors, bg);
     fill: color(bg);
+  }
+}
+
+.l-col2-50 {
+  @include mappy-bp(medium) {
+    @include span(6 of 12);
+    &:last-child {
+      @include last;
+    }
   }
 }

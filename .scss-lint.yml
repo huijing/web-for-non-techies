@@ -111,7 +111,7 @@ linters:
     enabled: false
 
   PropertySortOrder:
-    enabled: false
+    enabled: true
 
   PropertySpelling:
     enabled: true
@@ -134,9 +134,8 @@ linters:
     max_depth: 3
 
   SelectorFormat:
-    enabled: true
-    convention: hyphenated_lowercase
-    class_convention: '^(?:u|is|has)\-[a-z][a-zA-Z0-9]*$|^(?!u|is|has)[a-zA-Z][a-zA-Z0-9]*(?:\-[a-z][a-zA-Z0-9]*)?(?:\-\-[a-z][a-zA-Z0-9]*)?$'
+    enabled: false
+    convention: snake_case
 
   Shorthand:
     enabled: true

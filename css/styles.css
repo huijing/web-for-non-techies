@@ -143,18 +143,6 @@ body {
       font-size: 1.25rem;
       line-height: 1.5; } }
 
-hr {
-  margin-bottom: 1.5rem; }
-
-p a {
-  color: #0c7c59;
-  color: var(--main-color, #0c7c59);
-  -webkit-transition: all 0.2s;
-  transition: all 0.2s; }
-  p a:hover {
-    text-shadow: 0 0 0.35px #0c7c59, 0 0 0.35px #0c7c59;
-    text-shadow: 0 0 0.35px var(--main-color, #0c7c59), 0 0 0.35px var(--main-color, #0c7c59); }
-
 h1 {
   font-size: 1.602rem;
   line-height: 1.5;
@@ -220,22 +208,8 @@ p {
 ul {
   margin-bottom: 1.5rem; }
 
-figcaption {
-  font-size: 0.889rem;
-  line-height: 1.5;
-  margin-bottom: 1.5rem;
-  font-style: italic;
-  text-align: center; }
-  @media screen and (min-width: 768px) {
-    figcaption {
-      font-size: 1.111rem;
-      line-height: 1.5; } }
-
-figure img {
-  float: none;
-  margin-left: auto;
-  margin-right: auto;
-  display: block; }
+hr {
+  margin-bottom: 1.5rem; }
 
 .highlight {
   background: #fff; }
@@ -376,7 +350,7 @@ figure img {
     color: #099; }
 
 .o-inner-wrapper {
-  max-width: 60rem;
+  max-width: 45rem;
   margin-left: auto;
   margin-right: auto;
   padding: 0 1rem; }
@@ -396,20 +370,78 @@ figure img {
     fill: #edfbff;
     fill: var(--bg-color, #edfbff); }
 
+@media all and (min-width: 48em) {
+  .l-col2-50 {
+    width: 49.15254%;
+    float: left;
+    margin-right: 1.69492%; }
+    .l-col2-50:last-child {
+      float: right;
+      margin-right: 0; } }
+
 .c-chapters {
   counter-reset: li;
   margin-left: 2rem;
   padding: 0; }
 
 .c-chapter {
+  margin-bottom: 1rem;
   position: relative; }
-  .c-chapter::before {
-    content: counter(li) ".";
+
+.c-chapter-link {
+  margin-left: 1rem; }
+  .c-chapter-link:hover {
+    border-bottom: 1px solid #d64933;
+    border-bottom: 1px solid var(--highlight1-color, #d64933);
+    color: #d64933;
+    color: var(--highlight1-color, #d64933); }
+  .c-chapter-link::before {
+    background: #58a4b0;
+    background: var(--secondary-color, #58a4b0);
+    -webkit-border-radius: 50%;
+            border-radius: 50%;
+    color: #edfbff;
+    color: var(--bg-color, #edfbff);
+    content: counter(li);
     counter-increment: li;
+    font-size: 0.7em;
+    height: 2rem;
+    left: -2rem;
+    line-height: 2rem;
     position: absolute;
-    width: 2rem;
-    text-align: right;
-    left: -2.5rem; }
+    text-align: center;
+    width: 2rem; }
+
+.c-chapter-content a {
+  color: #0c7c59;
+  color: var(--main-color, #0c7c59);
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s; }
+  .c-chapter-content a:hover {
+    text-shadow: 0 0 0.35px #0c7c59, 0 0 0.35px #0c7c59;
+    text-shadow: 0 0 0.35px var(--main-color, #0c7c59), 0 0 0.35px var(--main-color, #0c7c59); }
+
+.c-chapter-content li {
+  display: list-item;
+  line-height: 1.5;
+  margin-left: 1.5rem; }
+
+.c-chapter-content figcaption {
+  font-size: 0.889rem;
+  line-height: 1.5;
+  font-style: italic;
+  margin-bottom: 1.5rem;
+  text-align: center; }
+  @media screen and (min-width: 768px) {
+    .c-chapter-content figcaption {
+      font-size: 1.111rem;
+      line-height: 1.5; } }
+
+.c-chapter-content figure img {
+  float: none;
+  margin-left: auto;
+  margin-right: auto;
+  display: block; }
 
 .c-site-footer {
   background: #58a4b0;
@@ -419,16 +451,17 @@ figure img {
   padding: 1rem 0; }
   @media all and (min-width: 48em) {
     .c-site-footer {
-      padding: 2rem 0; } }
-  .c-site-footer p a {
-    border-bottom: 1px solid #edfbff;
-    border-bottom: 1px solid var(--bg-color, #edfbff);
-    color: #edfbff;
-    color: var(--bg-color, #edfbff); }
-    .c-site-footer p a:hover {
-      border-bottom: 0;
-      text-shadow: 0 0 0.35px #edfbff, 0 0 0.35px #edfbff;
-      text-shadow: 0 0 0.35px var(--bg-color, #edfbff), 0 0 0.35px var(--bg-color, #edfbff); }
+      padding: 2rem 0 0; } }
+
+.c-footer-link {
+  border-bottom: 1px solid #edfbff;
+  border-bottom: 1px solid var(--bg-color, #edfbff);
+  color: #edfbff;
+  color: var(--bg-color, #edfbff); }
+  .c-footer-link:hover {
+    border-bottom: 0;
+    text-shadow: 0 0 0.35px #edfbff, 0 0 0.35px #edfbff;
+    text-shadow: 0 0 0.35px var(--bg-color, #edfbff), 0 0 0.35px var(--bg-color, #edfbff); }
 
 .u-float-left {
   float: left;
