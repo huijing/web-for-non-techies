@@ -18,141 +18,131 @@ $breakpoints: (
 );
 
 $textpoints: (
-  small: 590px,
-  large: 768px,
+  small: 36.875em,
+  large: 48em,
 );
 
 // Fonts
 @charset 'utf-8';
 
 @font-face {
-  font-family: 'Aileron';
-  src: url('../fonts/aileron-regular.eot');
-  src: url('../fonts/aileron-regular.eot?#iefix') format('embedded-opentype'),
-       url('../fonts/aileron-regular.woff2') format('woff2'),
-       url('../fonts/aileron-regular.woff') format('woff'),
-       url('../fonts/aileron-regular.ttf') format('truetype');
+  font-family: 'neuton';
+  src: url('../fonts/neuton-regular.eot');
+  src: url('../fonts/neuton-regular.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/neuton-regular.woff2') format('woff2'),
+       url('../fonts/neuton-regular.woff') format('woff'),
+       url('../fonts/neuton-regular.ttf') format('truetype');
   font-weight: 400;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'Aileron';
-  src: url('../fonts/aileron-italic.eot');
-  src: url('../fonts/aileron-italic.eot?#iefix') format('embedded-opentype'),
-       url('../fonts/aileron-italic.woff2') format('woff2'),
-       url('../fonts/aileron-italic.woff') format('woff'),
-       url('../fonts/aileron-italic.ttf') format('truetype');
+  font-family: 'neuton';
+  src: url('../fonts/neuton-italic.eot');
+  src: url('../fonts/neuton-italic.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/neuton-italic.woff2') format('woff2'),
+       url('../fonts/neuton-italic.woff') format('woff'),
+       url('../fonts/neuton-italic.ttf') format('truetype');
   font-weight: 400;
   font-style: italic;
 }
 
 @font-face {
-  font-family: 'Aileron';
-  src: url('../fonts/aileron-bold.eot');
-  src: url('../fonts/aileron-bold.eot?#iefix') format('embedded-opentype'),
-       url('../fonts/aileron-bold.woff2') format('woff2'),
-       url('../fonts/aileron-bold.woff') format('woff'),
-       url('../fonts/aileron-bold.ttf') format('truetype');
+  font-family: 'neuton';
+  src: url('../fonts/neuton-bold.eot');
+  src: url('../fonts/neuton-bold.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/neuton-bold.woff2') format('woff2'),
+       url('../fonts/neuton-bold.woff') format('woff'),
+       url('../fonts/neuton-bold.ttf') format('truetype');
   font-weight: 700;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'Aileron';
-  src: url('../fonts/aileron-black.eot');
-  src: url('../fonts/aileron-black.eot?#iefix') format('embedded-opentype'),
-       url('../fonts/aileron-black.woff2') format('woff2'),
-       url('../fonts/aileron-black.woff') format('woff'),
-       url('../fonts/aileron-black.ttf') format('truetype');
-  font-weight: 900;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'Hack';
-  src: url('../fonts/hack-regular.eot');
-  src: url('../fonts/hack-regular.eot?#iefix') format('embedded-opentype'),
-       url('../fonts/hack-regular.woff2') format('woff2'),
-       url('../fonts/hack-regular.woff') format('woff'),
-       url('../fonts/hack-regular.ttf') format('truetype');
-  font-weight: normal;
+  font-family: 'Abel';
+  src: url('../fonts/abel-regular.eot');
+  src: url('../fonts/abel-regular.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/abel-regular.woff2') format('woff2'),
+       url('../fonts/abel-regular.woff') format('woff'),
+       url('../fonts/abel-regular.ttf') format('truetype');
+  font-weight: 400;
   font-style: normal;
 }
 
 // Base font stacks
-$base-font: 'Aileron', Arial, sans-serif;
-$code-font: 'Hack', Arial, sans-serif;
+$base-font: 'Neuton', 'Times New Roman', serif;
+$header-font: 'Abel', 'Arial Narrow', sans-serif;
+$code-font: 'Courier New', monospace;
 
 // Set typography sizes
 $text-sizing: (
   deci: (
     small: (
-      font-size: 0.889rem,
+      font-size: 0.889em,
       line-height: 1.5
     ),
     large: (
-      font-size: 1.111rem,
+      font-size: 1.111em,
       line-height: 1.5
     )
   ),
   base: (
     small: (
-      font-size: 1rem,
+      font-size: 1em,
       line-height: 1.5
     ),
     large: (
-      font-size: 1.25rem,
+      font-size: 1.25em,
       line-height: 1.5
     )
   ),
   deca: (
     small: (
-      font-size: 1.125rem,
+      font-size: 1.125em,
       line-height: 1.5
     ),
     large: (
-      font-size: 1.406rem,
+      font-size: 1.406em,
       line-height: 1.5
     )
   ),
   hecto: (
     small: (
-      font-size: 1.266rem,
+      font-size: 1.266em,
       line-height: 1.5
     ),
     large: (
-      font-size: 1.582rem,
+      font-size: 1.582em,
       line-height: 1.5
     ),
   ),
   kilo: (
     small: (
-      font-size: 1.424rem,
+      font-size: 1.424em,
       line-height: 1.5
     ),
     large: (
-      font-size: 1.78rem,
+      font-size: 1.78em,
       line-height: 1.5
     ),
   ),
   mega: (
     small: (
-      font-size: 1.602rem,
+      font-size: 1.602em,
       line-height: 1.5
     ),
     large: (
-      font-size: 2.002rem,
+      font-size: 2.002em,
       line-height: 1.5
     ),
   ),
   giga: (
     small: (
-      font-size: 1.802rem,
+      font-size: 1.802em,
       line-height: 1.5
     ),
     large: (
-      font-size: 2.253rem,
+      font-size: 2.253em,
       line-height: 1.5
     ),
   )

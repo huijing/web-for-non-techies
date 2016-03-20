@@ -2,17 +2,22 @@
 // Objects
 // =======
 .o-inner-wrapper {
-  @include container(45rem);
+  @include container(45em);
   padding: 0 1rem;
 }
 
+.o-emoji {
+  display: inline-block;
+  vertical-align: middle;
+}
+
 .o-svgicon {
-  height: 2rem;
-  width: 2rem;
+  height: 2em;
+  width: 2em;
 
   @include mappy-bp(xsmall) {
-    height: 1rem;
-    width: 1rem;
+    height: 1em;
+    width: 1em;
   }
 
   path {

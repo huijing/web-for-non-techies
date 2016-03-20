@@ -12,6 +12,19 @@
 .c-chapter {
   margin-bottom: 1rem;
   position: relative;
+
+  &:first-child,
+  &:last-child {
+    .c-chapter-link::before {
+      background: map-get($colors, bg);
+      background: color(bg);
+      content: '';
+    }
+  }
+
+  &:nth-child(2) {
+    counter-reset: li;
+  }
 }
 
 .c-chapter-link {
@@ -67,14 +80,15 @@
   figcaption {
     @include responsive-text-size(deci);
     font-style: italic;
-    margin-bottom: 1.5rem;
+    margin-bottom: 1em;
     text-align: center;
   }
 
   figure {
     img {
-      @include center;
+      @include centre;
       display: block;
+      margin-bottom: 0;
     }
   }
 }

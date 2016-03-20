@@ -1,0 +1,18 @@
+---
+layout: post
+title: "Attributions"
+date:   2016-03-16 18:04:57 +0800
+---
+
+All the icons used in the graphic on the cover page are from the Noun Project, credit to the following individuals: 
+
+- Search by Michael Martinho
+- Video Game Controller by Vardan Stepanian
+- World by Ryan Dell
+- Suitcase by Ecem Afacan
+- Chat by Lorena Salagre
+- Share by Gabriele Malaspina
+- Map Marker by Kelly Walker
+- Shopping Cart by Nicholas Menghini
+- Film by Simple Icons
+- Mail by Edward Boatman, Heart by Vicons Design

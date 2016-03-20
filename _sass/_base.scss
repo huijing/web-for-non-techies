@@ -3,42 +3,57 @@
 // ====
 h1 {
   @include responsive-text-size(mega);
-  margin-bottom: 1rem;
+  font-family: $header-font;
+  margin-bottom: 0.5em;
 }
 
 h2 {
   @include responsive-text-size(kilo);
-  margin-bottom: 1rem;
+  font-family: $header-font;
+  margin-bottom: 0.5em;
 }
 
 h3 {
   @include responsive-text-size(hecto);
-  margin-bottom: 1rem;
+  font-family: $header-font;
+  margin-bottom: 0.5em;
 }
 
 h4 {
   @include responsive-text-size(deca);
-  margin-bottom: 1rem;
+  font-family: $header-font;
+  margin-bottom: 0.5em;
 }
 
 h5 {
   @include responsive-text-size(base);
-  margin-bottom: 1rem;
+  font-family: $header-font;
+  margin-bottom: 0.5em;
 }
 
 small {
   @include responsive-text-size(deci);
 }
 
-p {
-  @include responsive-text-size(base);
-  margin-bottom: 1.5rem;
+main {
+  ul,
+  ol,
+  p {
+    @include responsive-text-size(base);
+  }
+
+  img {
+    @include centre;
+    display: block;
+    margin-bottom: 1em;
+  }
 }
 
+hr,
+p,
+ol,
 ul {
-  margin-bottom: 1.5rem;
+  margin-bottom: 1em;
 }
 
-hr {
-  margin-bottom: 1.5rem;
-}
+

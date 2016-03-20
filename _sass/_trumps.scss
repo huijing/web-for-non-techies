@@ -2,13 +2,17 @@
 // Trumps
 // ======
 .u-float-left {
-  float: left;
-  margin-right: .85em;
+  @include mappy-bp(small) {
+    float: left;
+    margin-right: 1em;
+  }
 }
 
 .u-float-right {
-  float: right;
-  margin-left: .85em;
+  @include mappy-bp(small) {
+    float: right;
+    margin-left: 1em;
+  }
 }
 
 .u-clear {

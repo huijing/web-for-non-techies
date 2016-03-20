@@ -1,0 +1,20 @@
+---
+layout: post
+title: "Preface"
+date:   2016-03-16 18:04:57 +0800
+---
+Throughout the course of my career, I've gone through a number of emotional stages when it came to interacting with non-technical people. Especially those who have a direct impact on my work. These can be accurately depicted with emojis.  
+<span class="o-emoji">😭</span>: loudly crying  
+<span class="o-emoji">😱</span>: screaming in fear  
+<span class="o-emoji">😣</span>: persevering  
+<span class="o-emoji">😠</span>: angry  
+<span class="o-emoji">😡</span>: pouting  
+<span class="o-emoji">😩</span>: weary  
+
+None of those emotions were particularly positive. But then I realised, it was my fault for not explaining things clearly up front. I was assuming that they had the same level of knowledge as I did, and that was ludicrous! I was the one who lived and breathed the web, not them.
+
+Most people are not unreasonable. Even if they may seem so at times, and those times can almost always be attributed to some form of communication breakdown. As developers, sometimes we don't do ourselves any favours by not communicating well to the non-developers. If they think what you're doing is magic, maybe you want to rethink your communication strategy.
+
+I want to explain the web in terms that everyone can understand. And to de-mystify what seems like magic to many. It's not enough to know rudimentary HTML and CSS and call it a day. There is so much more than that. Like, how the internet actually works. Why expecting things to look the same across all browsers is not a good idea. What is actually going on when a website "goes down"?
+
+By the time you get through the book, the alphabet soup of acronyms that pepper many corporate conversations will make a lot more sense to you. You will have developed a fluff radar that can detect when somebody is trying to pull a fast one on you simply by tossing out every web acronym in his/her vocabulary.
