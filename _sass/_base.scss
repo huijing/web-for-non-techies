@@ -4,35 +4,36 @@
 h1 {
   @include responsive-text-size(mega);
   font-family: $header-font;
-  margin-bottom: 0.5em;
+  margin-bottom: 0.93665em;
 }
 
 h2 {
   @include responsive-text-size(kilo);
   font-family: $header-font;
-  margin-bottom: 0.5em;
+  margin-bottom: 1.05337em;
 }
 
 h3 {
   @include responsive-text-size(hecto);
   font-family: $header-font;
-  margin-bottom: 0.5em;
+  margin-bottom: 1.18534em;
 }
 
 h4 {
   @include responsive-text-size(deca);
   font-family: $header-font;
-  margin-bottom: 0.5em;
+  margin-bottom: 1.33323em;
 }
 
 h5 {
   @include responsive-text-size(base);
   font-family: $header-font;
-  margin-bottom: 0.5em;
+  margin-bottom: 1.5em;
 }
 
 small {
   @include responsive-text-size(deci);
+  margin-bottom: 1.68781em;
 }
 
 main {
@@ -45,7 +46,7 @@ main {
   img {
     @include centre;
     display: block;
-    margin-bottom: 1em;
+    margin-bottom: 2.0625em;
   }
 }
 
@@ -53,7 +54,7 @@ hr,
 p,
 ol,
 ul {
-  margin-bottom: 1em;
+  margin-bottom: 1.5em;
 }
 
 

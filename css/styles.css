@@ -131,73 +131,74 @@ body {
   margin: 0; }
 
 h1 {
-  font-size: 1.602em;
+  font-size: 1.802em;
   line-height: 1.5;
   font-family: "Abel", "Arial Narrow", sans-serif;
-  margin-bottom: 0.5em; }
+  margin-bottom: 0.93665em; }
   @media screen and (min-width: 48em) {
     h1 {
-      font-size: 2.002em;
+      font-size: 2.202em;
       line-height: 1.5; } }
 
 h2 {
-  font-size: 1.424em;
+  font-size: 1.602em;
   line-height: 1.5;
   font-family: "Abel", "Arial Narrow", sans-serif;
-  margin-bottom: 0.5em; }
+  margin-bottom: 1.05337em; }
   @media screen and (min-width: 48em) {
     h2 {
-      font-size: 1.78em;
+      font-size: 1.958em;
       line-height: 1.5; } }
 
 h3 {
-  font-size: 1.266em;
+  font-size: 1.424em;
   line-height: 1.5;
   font-family: "Abel", "Arial Narrow", sans-serif;
-  margin-bottom: 0.5em; }
+  margin-bottom: 1.18534em; }
   @media screen and (min-width: 48em) {
     h3 {
-      font-size: 1.582em;
+      font-size: 1.74em;
       line-height: 1.5; } }
 
 h4 {
-  font-size: 1.125em;
+  font-size: 1.266em;
   line-height: 1.5;
   font-family: "Abel", "Arial Narrow", sans-serif;
-  margin-bottom: 0.5em; }
+  margin-bottom: 1.33323em; }
   @media screen and (min-width: 48em) {
     h4 {
-      font-size: 1.406em;
+      font-size: 1.547em;
       line-height: 1.5; } }
 
 h5 {
-  font-size: 1em;
+  font-size: 1.125em;
   line-height: 1.5;
   font-family: "Abel", "Arial Narrow", sans-serif;
-  margin-bottom: 0.5em; }
+  margin-bottom: 1.5em; }
   @media screen and (min-width: 48em) {
     h5 {
-      font-size: 1.25em;
+      font-size: 1.375em;
       line-height: 1.5; } }
 
 small {
-  font-size: 0.889em;
-  line-height: 1.5; }
+  font-size: 1em;
+  line-height: 1.5;
+  margin-bottom: 1.68781em; }
   @media screen and (min-width: 48em) {
     small {
-      font-size: 1.111em;
+      font-size: 1.222em;
       line-height: 1.5; } }
 
 main ul,
 main ol,
 main p {
-  font-size: 1em;
+  font-size: 1.125em;
   line-height: 1.5; }
   @media screen and (min-width: 48em) {
     main ul,
     main ol,
     main p {
-      font-size: 1.25em;
+      font-size: 1.375em;
       line-height: 1.5; } }
 
 main img {
@@ -205,13 +206,13 @@ main img {
   margin-left: auto;
   margin-right: auto;
   display: block;
-  margin-bottom: 1em; }
+  margin-bottom: 2.0625em; }
 
 hr,
 p,
 ol,
 ul {
-  margin-bottom: 1em; }
+  margin-bottom: 1.5em; }
 
 .highlight {
   background: #fff; }
@@ -385,13 +386,37 @@ ul {
       float: right;
       margin-right: 0; } }
 
+.c-cover-img {
+  border: 1px solid;
+  border: 1px solid var(--txt-color, ); }
+
+.c-cta-wrapper {
+  text-align: center; }
+
+.c-cta {
+  font-size: 1.125em;
+  line-height: 1.5;
+  background: #58a4b0;
+  background: var(--secondary-color, #58a4b0);
+  -webkit-box-shadow: 2px 2px 5px 0 rgba(0, 0, 0, 0.75);
+          box-shadow: 2px 2px 5px 0 rgba(0, 0, 0, 0.75);
+  color: #edfbff;
+  color: var(--bg-color, #edfbff);
+  display: inline-block;
+  margin: 0 1em 1.5em;
+  padding: 0.5em 1em; }
+  @media screen and (min-width: 48em) {
+    .c-cta {
+      font-size: 1.375em;
+      line-height: 1.5; } }
+
 .c-chapters {
   counter-reset: li;
   margin-left: 2rem;
   padding: 0; }
 
 .c-chapter {
-  margin-bottom: 1rem;
+  margin-bottom: 0.75em;
   position: relative; }
   .c-chapter:first-child .c-chapter-link::before, .c-chapter:last-child .c-chapter-link::before {
     background: #edfbff;
@@ -424,6 +449,10 @@ ul {
     text-align: center;
     width: 2rem; }
 
+.c-chapter-number {
+  color: #58a4b0;
+  color: var(--secondary-color, #58a4b0); }
+
 .c-chapter-content a {
   color: #0c7c59;
   color: var(--main-color, #0c7c59);
@@ -439,14 +468,14 @@ ul {
   margin-left: 1.5rem; }
 
 .c-chapter-content figcaption {
-  font-size: 0.889em;
+  font-size: 1em;
   line-height: 1.5;
   font-style: italic;
-  margin-bottom: 1em;
+  margin-bottom: 1.5em;
   text-align: center; }
   @media screen and (min-width: 48em) {
     .c-chapter-content figcaption {
-      font-size: 1.111em;
+      font-size: 1.222em;
       line-height: 1.5; } }
 
 .c-chapter-content figure img {
