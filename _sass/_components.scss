@@ -6,6 +6,7 @@
   border: 1px solid map-get($colors, txt);
   border: 1px solid color(txt);
 }
+
 .c-cta-wrapper {
   text-align: center;
 }
@@ -114,6 +115,17 @@
   }
 }
 
+// Navigation styles
+.c-nav {
+  @include cf;
+  @include responsive-text-size(deci);
+  margin-bottom: 1.5em;
+}
+
+.c-next {
+  float: right;
+}
+
 // Site footer styles
 .c-site-footer {
   background: map-get($colors, secondary);
@@ -123,7 +135,7 @@
   padding: 1rem 0;
 
   @include mappy-bp(medium) {
-    padding: 2rem 0 0;
+    padding: 1rem 0;
   }
 }
 

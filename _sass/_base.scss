@@ -41,6 +41,7 @@ main {
   ol,
   p {
     @include responsive-text-size(base);
+    margin-bottom: 1.5em;
   }
 
   img {
@@ -50,10 +51,7 @@ main {
   }
 }
 
-hr,
-p,
-ol,
-ul {
+hr {
   margin-bottom: 1.5em;
 }
 
