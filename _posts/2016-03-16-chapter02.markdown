@@ -9,7 +9,9 @@ As with all technology, the internet comes with a long list of terms and acronym
 
 ### Protocol
 
-Communication networks can function because of something known as protocols, the most crucial aspect of telecommunications. A **protocol** is an agreed set of rules and standards that allow devices to communicate with each other. Connectivity is something most people don't think twice about these days, in fact, some people *expect* their devices to all speak to one another. But just a few decades ago, computers couldn't even talk to each other. Some really smart people (refer to the [section on Internet Pioneers](./chapter1.html#the-pioneers-of-the-internet)  in chapter 1) came up with these protocols that allowed devices to share information with each other. There are many different protocols now, and the number will probably keep growing as we develop faster and more efficient methods.
+Communication networks can function because of something known as protocols, the most crucial aspect of telecommunications. A **protocol** is an agreed set of rules and standards that allow devices to communicate with each other. Connectivity is something most people don't think twice about these days, in fact, some people *expect* their devices to all speak to one another. But just a few decades ago, computers couldn't even talk to each other. 
+
+Some really smart people (refer to the [section on Internet Pioneers](./chapter1.html#the-pioneers-of-the-internet)  in chapter 1) came up with these protocols that allowed devices to share information with each other. There are many different protocols now, and the number will probably keep growing as we develop faster and more efficient methods.
 
 <figure>
     <table class="nomargin">
@@ -58,3 +60,7 @@ A server is a computer which is connected directly to the internet. The confusin
 A client any device, be it computer, tablet or phone, which is connected to the internet. The difference is that the client has to go through an **Internet Service Provider (ISP)** to do that. 
 
 ### Application Programming Interface (API)
+
+The dictionary definition of interface generally has the connotation of interactivity and connection. Basically, it's a point when two entities meet and interact. Most humans (some don't) prefer a graphical user interface (GUI) when interacting with computers and devices. Think that sleek user interface on your smart phone or your latest computer. 
+
+Computers also need to communicate and interact with other, more specifically, the applications running on computers need some way to talk to each other. Here's where the API comes in. 
