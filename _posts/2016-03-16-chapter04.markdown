@@ -1,8 +1,12 @@
 ---
 layout: post
 chapter: "Chapter 4"
-title: "Why do things look different on every browser?"
+title: "So what is the world wide web?"
 date:   2016-03-16 18:04:57 +0800
 categories: internet
 ---
-Let's talk a little bit about how stuff shows up on your computer screen. 
+
+
+
+## Related resources
+- [Weaving the Web](https://www.w3.org/People/Berners-Lee/Weaving/Overview.html) by [Tim Berners-Lee](https://www.w3.org/People/Berners-Lee/) (*The origins of the web as told by the creator himself*)

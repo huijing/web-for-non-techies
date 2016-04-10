@@ -1,8 +1,14 @@
 ---
 layout: post
 chapter: "Chapter 5"
-title: "Roles and responsibilities"
+title: "Why do things look different on every browser?"
 date:   2016-03-16 18:04:57 +0800
-categories: work
+categories: internet
 ---
+Let's talk a little bit about how stuff shows up on your computer screen. 
+
+
+## Related resources
+- [How Browsers Work: Behind the scenes of modern web browsers](http://www.html5rocks.com/en/tutorials/internals/howbrowserswork/) by [Tali Garsiel](http://taligarsiel.com/) (*The best primer on how browsers work*)
+- [How browsers work internally](https://vimeo.com/44182484) by [Tali Garsiel](http://taligarsiel.com/) (*Conference talk at Front Trends 2012*)
 

@@ -1,7 +1,7 @@
 ---
 layout: post
 chapter: "Chapter 6"
-title: "Why all the fuss about responsive?"
+title: "Roles and responsibilities"
 date:   2016-03-16 18:04:57 +0800
 categories: work
 ---
