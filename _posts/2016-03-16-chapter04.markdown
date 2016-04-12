@@ -10,3 +10,4 @@ categories: internet
 
 ## Related resources
 - [Weaving the Web](https://www.w3.org/People/Berners-Lee/Weaving/Overview.html) by [Tim Berners-Lee](https://www.w3.org/People/Berners-Lee/) (*The origins of the web as told by the creator himself*)
+- [As We May Think](http://www.theatlantic.com/magazine/archive/1945/07/as-we-may-think/303881/) by [Vannevar Bush](https://www.ibiblio.org/pioneers/bush.html)
