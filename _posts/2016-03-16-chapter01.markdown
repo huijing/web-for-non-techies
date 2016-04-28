@@ -72,7 +72,23 @@ But let's give some kudos to these smart people and find out a bit more about th
     <img src="{{ site.baseurl }}/images/1/davies.jpeg" srcset="{{ site.baseurl }}/images/1/davies@2x.jpeg 2x" alt="Donald Davies"/>
     <figcaption><small><em>Donald Davies</em></small></figcaption>
 </figure>
-<p><strong>Donald Watts Davies</strong>, was a Welsh computer scientist, who also conceived of the idea of packet switching. It was highly coincidental that both Davies and Baran came up with the same idea independent of one another. </p>
+<p><strong>Donald Watts Davies</strong>, was a Welsh computer scientist, who also conceived of the idea of packet switching. It was highly coincidental that both Davies and Baran came up with the same idea independent of one another. Davies rolled the packet switched network, Mark I, in the U.K. and is credited as the man who invented the term "packet".</p>
+</div>
+
+<div class="u-clear">
+<figure class="u-float-right">
+    <img src="{{ site.baseurl }}/images/1/baran.jpeg" srcset="{{ site.baseurl }}/images/1/baran@2x.jpeg 2x" alt="Wes Clark"/>
+    <figcaption><small><em>Wes Clark</em></small></figcaption>
+</figure>
+<p><strong>Wesley Allison Clark</strong> was a legendary computer engineer whose work formed the basis on which modern personal computing, computer graphics and the internet were built on. He came up with the idea of building a network of computers dedicated to the task of routing.</p> 
+</div>
+
+<div class="u-clear">
+<figure class="u-float-left">
+    <img src="{{ site.baseurl }}/images/1/davies.jpeg" srcset="{{ site.baseurl }}/images/1/davies@2x.jpeg 2x" alt="Frank Heart"/>
+    <figcaption><small><em>Frank Heart</em></small></figcaption>
+</figure>
+<p><strong>Frank Heart</strong> led the team at Bolt, Beranek and Newman (BBN), which </p>
 </div>
 
 ## Devices, cables and radio waves
