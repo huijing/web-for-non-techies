@@ -6,6 +6,12 @@ date:   2016-03-16 18:04:57 +0800
 categories: internet
 ---
 
+HTTP
+explains how files are formatted and transmitted between the server and the browser. HTTP is considered as a stateless protocol due to the process of independent execution of its command without any knowledge about it prior. 
+HTTP was developed by the Internet Engineering Task Force (IETF) and World Wide Consortium back in 1999 leading in the publication of a series of Requests for Comments (RFCs) with its first version as HTTP/1.1 prior to the HTTP/0.9 which is a one-line protocol to bootstrap the web in an informational standard.
+URI
+
+HTML
 
 
 ## Related resources
