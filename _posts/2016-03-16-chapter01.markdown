@@ -108,6 +108,7 @@ After that history lesson, let's bring it back to the original question, what ex
     <img src="{{ site.baseurl }}/images/1/utility-pole.jpeg" srcset="{{ site.baseurl }}/images/1/utility-pole@2x.jpeg 2x" alt="Utility pole"/>
     <figcaption><small><em>The utility pole outside my house</em></small></figcaption>
 </figure>
+
 <p>There is a phrase used in telecommunications called "last mile" or "last kilometre" which refers to the part of the telecommunications network that is responsible for delivery to the end-user, like you and me. For example, those cables up on the utility poles along roads, or cell towers that broadcast to your mobile phones. For wired telecommunications, copper cables are commonly for the "last mile" infrastructure.</p>
 <p>You know those ethernet cables connected to your computer? Those are copper cables, twisted copper cables. Copper is used because it has the highest electrical conductivity of all non-precious metals. Your bits of data are transmitted across these copper cables as electrical pulses, but copper cabling is susceptible to electromagnetic interference from other cables and power wires. In fact, the maximum viable length of a single ethernet cable is around 100 metres. Cable internet gets its name from the fact that it transmits data over the same cables that transmit cable television.</p>
 </div>
@@ -137,6 +138,6 @@ The internet in its entirety is not owned by anyone. Part of the physical infras
 - [Where Wizards Stay Up Late: The Origins Of The Internet](http://www.amazon.com/Where-Wizards-Stay-Up-Late/dp/0684832674) by [Katie Hafner](http://katiehafner.com/books/where-wizards-stay-up-late/) (*Widely considered to be THE definitive book on internet history*)
 - [Brief history of the internet](http://www.internetsociety.org/internet/what-internet/history-internet/brief-history-internet) by [Internet Society](http://www.internetsociety.org/)
 - [Internet World Stats](http://www.internetworldstats.com/stats.htm) by [Miniwatts Marketing Group](http://www.miniwatts.com/)
-- [What is the internet?](http://www.20thingsilearned.com/en-US/what-is-the-internet/1) by the [Google Chrome Team](http://www.google.com/chrome?brand=CHJN)
 - [Interview with Walter Isaacson](https://youtu.be/rRqLSiLuQgA) by [Talks at Google](https://www.youtube.com/channel/UCbmNph6atAoGfqLoCL_duAg) (*He's the author of The Innovators: How a Group of Hackers, Geniuses, and Geeks Created the Digital Revolution*)
-- [How to Destroy the Internet](http://gizmodo.com/5912383/how-to-destroy-the-internet) by [Sam Biddle](http://www.sambiddle.com/)
+- [Tubes: A Journey to the Center of the Internet](http://www.amazon.com/Tubes-Journey-Internet-Andrew-Blum/dp/0061994952) by [Andrew Blum](http://andrewblum.net/)
+- [How the Internet works: Submarine fiber, brains in jars, and coaxial cables](http://arstechnica.com/information-technology/2016/05/how-the-internet-works-submarine-cables-data-centres-last-mile/)
