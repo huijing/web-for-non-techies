@@ -2,7 +2,7 @@
 title: A non-technical guide to understanding the web
 email: kakyou_tensai@yahoo.com
 description: An introduction to the web and how it works for the non-programmer.
-baseurl: ""
+baseurl: "http://localhost:7855"
 url: "http://localhost:7855"
 
 permalink: /:title/

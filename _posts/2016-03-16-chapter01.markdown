@@ -136,8 +136,8 @@ The internet in its entirety is not owned by anyone. Part of the physical infras
 
 ## Related resources
 - [Where Wizards Stay Up Late: The Origins Of The Internet](http://www.amazon.com/Where-Wizards-Stay-Up-Late/dp/0684832674) by [Katie Hafner](http://katiehafner.com/books/where-wizards-stay-up-late/) (*Widely considered to be THE definitive book on internet history*)
-- [Brief history of the internet](http://www.internetsociety.org/internet/what-internet/history-internet/brief-history-internet) by [Internet Society](http://www.internetsociety.org/)
-- [Internet World Stats](http://www.internetworldstats.com/stats.htm) by [Miniwatts Marketing Group](http://www.miniwatts.com/)
-- [Interview with Walter Isaacson](https://youtu.be/rRqLSiLuQgA) by [Talks at Google](https://www.youtube.com/channel/UCbmNph6atAoGfqLoCL_duAg) (*He's the author of The Innovators: How a Group of Hackers, Geniuses, and Geeks Created the Digital Revolution*)
 - [Tubes: A Journey to the Center of the Internet](http://www.amazon.com/Tubes-Journey-Internet-Andrew-Blum/dp/0061994952) by [Andrew Blum](http://andrewblum.net/)
+- [Interview with Walter Isaacson](https://youtu.be/rRqLSiLuQgA) by [Talks at Google](https://www.youtube.com/channel/UCbmNph6atAoGfqLoCL_duAg) (*He's the author of The Innovators: How a Group of Hackers, Geniuses, and Geeks Created the Digital Revolution*)
+- [Brief history of the internet](http://www.internetsociety.org/internet/what-internet/history-internet/brief-history-internet) by [Internet Society](http://www.internetsociety.org/)
 - [How the Internet works: Submarine fiber, brains in jars, and coaxial cables](http://arstechnica.com/information-technology/2016/05/how-the-internet-works-submarine-cables-data-centres-last-mile/)
+- [Internet World Stats](http://www.internetworldstats.com/stats.htm) by [Miniwatts Marketing Group](http://www.miniwatts.com/)

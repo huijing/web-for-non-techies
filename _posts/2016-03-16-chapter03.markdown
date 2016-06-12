@@ -67,6 +67,8 @@ Can see all these requests in Dev tools. Every webpage uses multiple resources, 
 GET requests are us wanting to get a resource.
 200 means everything is fine
 
+On New Year's Day 1983, all host computers on the ARPAnet switched their communications protocol from Network Control Protocol (NCP) to TCP/IP (Transmission Control Protocol/Internet Protocol). This is a historic milestone in Internet history because it cemented what would become the Internet infrastructure as we know today. Networks now had a formalised vocabulary with which to interact.
+
 cdn
 https://www.flexport.com/blog/the-internet-is-powered-by-airplanes/
 
