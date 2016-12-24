@@ -26,36 +26,23 @@ $textpoints: (
 @charset 'utf-8';
 
 @font-face {
-  font-family: 'neuton';
-  src: url('../fonts/neuton-regular.eot');
-  src: url('../fonts/neuton-regular.eot?#iefix') format('embedded-opentype'),
-       url('../fonts/neuton-regular.woff2') format('woff2'),
-       url('../fonts/neuton-regular.woff') format('woff'),
-       url('../fonts/neuton-regular.ttf') format('truetype');
+  font-family: 'Sorts Mill Goudy';
+  src: url('../fonts/oflgoudystm.eot');
+  src: url('../fonts/oflgoudystm.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/oflgoudystm.woff2') format('woff2'),
+       url('../fonts/oflgoudystm.woff') format('woff');
   font-weight: 400;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'neuton';
-  src: url('../fonts/neuton-italic.eot');
-  src: url('../fonts/neuton-italic.eot?#iefix') format('embedded-opentype'),
-       url('../fonts/neuton-italic.woff2') format('woff2'),
-       url('../fonts/neuton-italic.woff') format('woff'),
-       url('../fonts/neuton-italic.ttf') format('truetype');
+  font-family: 'Sorts Mill Goudy';
+  src: url('../fonts/oflgoudystm-italic.eot');
+  src: url('../fonts/oflgoudystm-italic.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/oflgoudystm-italic.woff2') format('woff2'),
+       url('../fonts/oflgoudystm-italic.woff') format('woff');
   font-weight: 400;
   font-style: italic;
-}
-
-@font-face {
-  font-family: 'neuton';
-  src: url('../fonts/neuton-bold.eot');
-  src: url('../fonts/neuton-bold.eot?#iefix') format('embedded-opentype'),
-       url('../fonts/neuton-bold.woff2') format('woff2'),
-       url('../fonts/neuton-bold.woff') format('woff'),
-       url('../fonts/neuton-bold.ttf') format('truetype');
-  font-weight: 700;
-  font-style: normal;
 }
 
 @font-face {
@@ -70,7 +57,7 @@ $textpoints: (
 }
 
 // Base font stacks
-$base-font: 'Neuton', 'Times New Roman', serif;
+$base-font: 'Sorts Mill Goudy', 'Georgia', serif;
 $header-font: 'Abel', 'Arial Narrow', sans-serif;
 $code-font: 'Courier New', monospace;
 

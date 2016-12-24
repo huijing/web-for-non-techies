@@ -17,7 +17,7 @@
   },
   "homepage": "https://www.chenhuijing.com/web-for-non-techies/",
   "devDependencies": {
-    "browser-sync": "^2.18.2",
+    "browser-sync": "^2.18.5",
     "gulp": "^3.9.1",
     "gulp-autoprefixer": "^3.1.1",
     "gulp-concat": "^2.6.1",
