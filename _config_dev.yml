@@ -20,8 +20,10 @@ exclude:
   - node_modules
   - gulpfile.js
   - package.json
-  - bower.json
-  - bower_components
+  - yarn.lock
+  - README.md
+  - Gemfile
+  - Gemfile.lock
 
 # Site defaults
 defaults:

@@ -1,4 +1,4 @@
-// CSS architecture for Talk.CSS website
+// CSS architecture for A non-technical guide to understanding the internet
 // Developed by Chen Hui Jing <kakyou_tensai@yahoo.com>
 // -----
 // Structure based on ITCSS by Harry Roberts
@@ -31,9 +31,91 @@
 // ==========
 @import 'objects';
 // ==========
+// LAYOUT - Styles related to layout and positioning
+// ==========
+.l-cta {
+  display: inline-block;
+  margin: 0 1em 1.5em;
+  padding: 0.5em 1em;
+}
+
+.l-chapters {
+  margin-left: 2rem;
+  padding: 0;
+}
+
+.l-chapter {
+  margin-bottom: 0.75em;
+  position: relative;
+}
+
+.l-chapter-link {
+  margin-left: 1rem;
+
+  &::before {
+    height: 2rem;
+    left: -2rem;
+    position: absolute;
+    width: 2rem;
+  }
+}
+// ==========
 // COMPONENTS - Designed components, chunks of UI
 // ==========
-@import 'components';
+@import 'components-footer';
+
+// Home page styles
+.c-cover-img {
+  border: 1px solid map-get($colors, txt);
+  border: 1px solid color(txt);
+}
+
+.c-cta-wrapper {
+  text-align: center;
+}
+
+.c-cta {
+  @include responsive-text-size(base);
+  background: map-get($colors, secondary);
+  background: color(secondary);
+  box-shadow: 2px 2px 5px 0 rgba(0, 0, 0, 0.75);
+  color: map-get($colors, bg);
+  color: color(bg);
+}
+
+.c-chapters {
+  counter-reset: li;
+}
+
+.c-chapter {
+  &:first-child,
+  &:last-child {
+    .c-chapter-link::before {
+      background: map-get($colors, bg);
+      background: color(bg);
+      content: '';
+    }
+  }
+
+  &:nth-child(2) {
+    counter-reset: li;
+  }
+}
+
+.c-chapter-link {
+  &::before {
+    background: map-get($colors, secondary);
+    background: color(secondary);
+    border-radius: 50%;
+    color: map-get($colors, bg);
+    color: color(bg);
+    content: counter(li);
+    counter-increment: li;
+    font-size: 0.7em;
+    line-height: 2rem;
+    text-align: center;
+  }
+}
 // ==========
 // TRUMPS - Helpers and overrides
 // ==========

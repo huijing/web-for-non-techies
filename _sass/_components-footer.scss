@@ -1,0 +1,27 @@
+// ==========
+// Components - Site Footer
+// ==========
+.c-site-footer {
+  background: map-get($colors, secondary);
+  background: color(secondary);
+  color: map-get($colors, bg);
+  color: color(bg);
+  padding: 1rem 0;
+
+  @include mappy-bp(medium) {
+    padding: 1rem 0;
+  }
+}
+
+.c-footer-link {
+  border-bottom: 1px solid map-get($colors, bg);
+  border-bottom: 1px solid color(bg);
+  color: map-get($colors, bg);
+  color: color(bg);
+
+  &:hover {
+    border-bottom: 0;
+    text-shadow: 0 0 0.35px map-get($colors, bg), 0 0 0.35px map-get($colors, bg);
+    text-shadow: 0 0 0.35px color(bg), 0 0 0.35px color(bg);
+  }
+}

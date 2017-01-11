@@ -2,7 +2,8 @@
 // Objects
 // =======
 .o-inner-wrapper {
-  @include container(45em);
+  @include centre;
+  max-width: 45em;
   padding-left: 1rem;
   padding-right: 1rem;
 }
@@ -10,28 +11,43 @@
 .o-emoji {
   display: inline-block;
   vertical-align: middle;
+  font-family: 'Segoe UI Emoji';
 }
 
-.o-svgicon {
-  height: 2em;
-  width: 2em;
+span[role=img][aria-label],
+span[role=img][aria-label] {
+  position: relative;
+}
 
-  @include mappy-bp(xsmall) {
-    height: 1em;
-    width: 1em;
-  }
+span[role=img][aria-label]:focus::after,
+span[role=img][aria-label]:hover::after {
+  font-size: 75%;
+  font-family: $base-font;
+  position: absolute;
+  display: block;
+  line-height: 1.2;
+  content: attr(aria-label);
+  z-index: 1;
+  bottom: 2.5em;
+  left: 0;
+  background: color(text);
+  color: color(border);
+  padding: 0.25em;
+  border: 1px solid color(border);
+  box-shadow: 2px 2px 4px color(text);
+}
 
-  path {
-    fill: map-get($colors, bg);
-    fill: color(bg);
+@media print {
+  span[role=img][aria-label]::after {
+    content: " (" attr(aria-label) ") ";
   }
 }
 
-.l-col2-50 {
-  @include mappy-bp(medium) {
-    @include span(6 of 12);
-    &:last-child {
-      @include last;
-    }
+.o-link {
+  &:hover {
+    border-bottom: 1px solid map-get($colors, highlight1);
+    border-bottom: 1px solid color(highlight1);
+    color: map-get($colors, highlight1);
+    color: color(highlight1);
   }
 }

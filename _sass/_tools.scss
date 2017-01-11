@@ -31,12 +31,6 @@
   color: color($color);
 }
 
-@mixin vertical-align($position: relative) {
-  position: $position;
-  top: 50%;
-  transform: translateY(-50%);
-}
-
 @mixin respond-above($breakpoint-name) {
   $breakpoint-value: breakpoint($breakpoint-name);
   @if $breakpoint-value != null {

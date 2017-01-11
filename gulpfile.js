@@ -42,7 +42,7 @@ gulp.task('browser-sync', ['sass', 'jekyll-dev'], function() {
  * Compile files from _scss into both _site/css (for live injecting) and site (for future jekyll builds)
  */
 gulp.task('sass', function () {
-  return gulp.src('_sass/styles.scss')
+  return gulp.src(['_sass/styles.scss', '_sass/posts.scss'])
     .pipe(sass({
       includePaths: ['scss'],
       onError: browserSync.notify
@@ -76,7 +76,7 @@ gulp.task('jekyll-prod', function (done) {
  * Compile files from _scss into both _site/css (for live injecting) and site (for future jekyll builds)
  */
 gulp.task('sass-prod', function () {
-  return gulp.src('_sass/styles.scss')
+  return gulp.src(['_sass/styles.scss', '_sass/posts.scss'])
     .pipe(sass({
       includePaths: ['scss'],
       onError: browserSync.notify

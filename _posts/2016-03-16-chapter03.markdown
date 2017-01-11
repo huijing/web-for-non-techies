@@ -1,76 +1,19 @@
 ---
 layout: post
 chapter: "Chapter 3"
-title: "How does the internet work?"
+title: "So what is the world wide web?"
 date:   2016-03-16 18:04:57 +0800
 categories: internet
 ---
-Now that we've established that the internet is actually just an enormous network of networks that connects devices all over the world together, let's try to understand how that is actually possible.
- 
-Bandwidth - transmission capacity, measured by bitrate
-Bitrate - number of bits per second a system can transmit
-Latency - time it takes for a bit to travel from sender to receiver
 
-Internet Service Providers
+HTTP
+explains how files are formatted and transmitted between the server and the browser. HTTP is considered as a stateless protocol due to the process of independent execution of its command without any knowledge about it prior. 
+HTTP was developed by the Internet Engineering Task Force (IETF) and World Wide Consortium back in 1999 leading in the publication of a series of Requests for Comments (RFCs) with its first version as HTTP/1.1 prior to the HTTP/0.9 which is a one-line protocol to bootstrap the web in an informational standard.
+URI
 
-IP address - internet protocol address
-traditional ip addresses are 32-bits long 
-country network, region network, subnetwork, device
-ipv4 designed in 1973, provides for more than 4 billion unique addresses
-multi-year transition to ipv6, uses 128bits per address, 340 undecillion unique addresses
-dns - domain name system, associates names with the corresponding ip addresses
-computers use domain names to look up the names 
-dns servers are connected in the a distributed hierarchy, divided into zones, .com .org .net etc, open and public communication protocol, susceptible to dns spoofing match domain name to the wrong ip address 
-router - direct packets around the internet, acts as traffic managers to keep packets moving smoothly through the networks, routers keep track of all available paths and chooses the cheapest available path for each piece of data based on destination address for the packet 
-options make the system fault tolerant, reliability 
-tcp is transmission control protocol - manages the sending and receiving of all data as packets, tcp will inventory all packets and send a response on packets received, tcp will sign off if all packets are delivered, else it will not and ask server to resend the undelivered packets 
-modem
-
-http - language which web browsers and servers use to talk to each other, hypertext transfer protocol
-get requests, get /login gives you the html code for the login page
-sometimes you send requests too, use post request
-cookies, websites use them to remember who you are, cookies are id cards for the website unique number, attach id number with the send request
-internet is open and information sent in plain text
-safe websites prevent snooping by asking to communicate on a secure channel
-ssl - secure sockets layer
-tls - transport layer security
-layer of security wrapped around your communications to protect from snooping or tampering
-used when https active s stands for secure
-digital certificate published by certificate authorities, trusted entities that verify identities of websites and issue certificates for them
-url - universal resource locator 
-web browser reads the web pages
+HTML
 
 
-internetworking protocol - vint cerf bob kahn
-network of networks
-
-Your browser asks the server for a copy of the webpage. Request is put in a virtual envelope called a packet. wrapped with specific information about that request, including an IP address. packet is sent out of your computer across large copper wires or fibre optic cables. lands on the main internet hub of whichever country. information on the packet tells the hub where the server actually resides. packet is sent across the ocean deep beneath, largest internet hub on the east coast, packet sent across regional networks, server reads request then gets ready to send request back, too large to send as single packet of data, gigantic tour bus, get off and spread out some take subway some rent bikes etc how they get there doesn't matter as long as they get there on time, web page is split up into tiny packets of data, each wrapped with the information they need to rebuild themselves, sent all over different hubs and routes, most will go through the main hub, epic journey happens in a second,
-
-how a message is addressed and how it will pass on, rules are known as protocols, Each packet includes instructions about how it fits together and details about
-where it came from and where it is going
-Each computer on the internet has a unique numeric address called an IP
-address, and these can be looked up automatically using a Domain Name
-Server, which is like a giant address book.
-When we have an address, the packets get guided through the internet by
-routers, which pass them along like a baton in a relay race
-
-Works very similarly to street addresses.
-IP address. Identifies every device on a network. Unique.
-To ping something is to check if you can access a resource.
-Need a system to map domain name to IP address. because humans like words not numbers.
-DNS is domain name system. Contact DNS server, it gives your computer the IP address for the domain you want to access.
-Access the computers serving the website.
-URL stands for universal resource locator. A resource can be anything that we can access using HTTP, hypertext transfer protocol
-web runs on http. secure version is https
-Sending an http request to the server. There will be a server listening for requests and send a response back to indicate if it can or cannot server that request. Could be that whatever is being requested does not exist or encountered an error
-Can see all these requests in Dev tools. Every webpage uses multiple resources, Type of request was made.
-GET requests are us wanting to get a resource.
-200 means everything is fine
-
-On New Year's Day 1983, all host computers on the ARPAnet switched their communications protocol from Network Control Protocol (NCP) to TCP/IP (Transmission Control Protocol/Internet Protocol). This is a historic milestone in Internet history because it cemented what would become the Internet infrastructure as we know today. Networks now had a formalised vocabulary with which to interact.
-
-cdn
-https://www.flexport.com/blog/the-internet-is-powered-by-airplanes/
-
-submarine cables
-http://www.vox.com/2015/3/13/8204655/submarine-cables-internet
+## Related resources
+- [Weaving the Web](https://www.w3.org/People/Berners-Lee/Weaving/Overview.html) by [Tim Berners-Lee](https://www.w3.org/People/Berners-Lee/) (*The origins of the web as told by the creator himself*)
+- [As We May Think](http://www.theatlantic.com/magazine/archive/1945/07/as-we-may-think/303881/) by [Vannevar Bush](https://www.ibiblio.org/pioneers/bush.html)

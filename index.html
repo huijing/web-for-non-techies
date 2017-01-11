@@ -4,11 +4,11 @@ layout: default
 <section>
   <h1 class="c-hero-title">A non-technical guide to understanding the internet</h1>
   <p class="c-hero-desc">SEO, HTML, CSS, HTTP, TCP/IP, oh my god why so many letters? If you hear this alphabet soup of acronyms on a regular basis but never knew what they actually meant, this book is for you. This is an introduction to the web and how it works for the non-technical individual.</p>
-  <p>The book aims to be an easy-to-digest primer of how things work on the web, as well as provide some insight on dealing with developers. Like me 🤓.</p>
+  <p>The book aims to be an easy-to-digest primer of how things work on the web, as well as provide some insight on dealing with developers. Like me <span class="o-emoji" role="img" tabindex="0" aria-label="nerd face">🤓</span>.</p>
   <img class="c-cover-img" src="{{ site.baseurl }}/images/cover.jpg" srcset="{{ site.baseurl }}/images/cover@2x.jpg 2x" alt="Book cover"/>
   <div class="c-cta-wrapper">
-    <a class="c-cta" href="chapter00">Start reading online</a>
-    <a class="c-cta" href="https://leanpub.com/understanding-the-web">Pay what you want</a>
+    <a class="l-cta c-cta" href="chapter00">Start reading online</a>
+    <a class="l-cta c-cta" href="https://leanpub.com/understanding-the-web">Pay what you want</a>
   </div>
   <p><em>Note: this book is open-source and currently work in progress. If you visit often, you will see half-written drafts and some things that make no sense at all. What you're witnessing, is actual work in progress. If you have any suggestions, please let me know. Tweet me (<a href="https://twitter.com/hj_chen">@hj_chen</a>) or <a href="https://github.com/huijing/web-for-non-techies/issues">open a GitHub issue</a> or something.</em></p>
   <p>
@@ -29,10 +29,10 @@ layout: default
 
 <section>
   <h2>Contents</h2>
-  <ol class="c-chapters">
+  <ol class="l-chapters c-chapters">
     {% for post in site.posts reversed %}
-    <li class="c-chapter">
-      <a class="c-chapter-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+    <li class="l-chapter c-chapter">
+      <a class="o-link l-chapter-link c-chapter-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
     </li>
     {% endfor %}
   </ol>

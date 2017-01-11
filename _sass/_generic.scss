@@ -73,15 +73,6 @@ select {
   appearance: none;
 }
 
-::-moz-focus-inner {
-  border: 0;
-  padding: 0;
-}
-
-:focus {
-  outline: 0;
-}
-
 img {
   border: 0;
   height: auto;
@@ -98,7 +89,7 @@ img {
 html {
   box-sizing: border-box;
   height: 100%;
-  min-width: 320px;
+  min-width: 20em;
 }
 
 body {
@@ -106,7 +97,6 @@ body {
   background-color: color(bg);
   color: map-get($colors, text);
   color: color(text);
-  font: 16px/1 sans-serif;
   font-family: $base-font;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;

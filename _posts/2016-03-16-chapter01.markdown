@@ -22,7 +22,7 @@ Keep in mind that computers in this era were behemoths spanning entire rooms, an
 
 <figure>
     <img src="{{ site.baseurl }}/images/1/tx2.jpeg" srcset="{{ site.baseurl }}/images/1/tx2@2x.jpeg 2x" alt="Lincoln TX-2"/>
-    <figcaption><small><em>Ivan Sutherland using the Lincoln TX-2 <a href="http://www.computerhistory.org/revolution/input-output/14/349/1878">(Image credit: MIT Museum)</a></em></small></figcaption>
+    <figcaption><small><em>Ivan Sutherland using the Lincoln TX-2 (<a href="http://www.computerhistory.org/revolution/input-output/14/349/1878">Image credit: MIT Museum</a>)</em></small></figcaption>
 </figure>
 
 ## A brief history of the internet and its pioneers
@@ -31,7 +31,7 @@ If we go back to the beginning, we'll find that the internet had its roots in th
 
 **The TL:DR version of things is, the best and brightest minds were brought in to work for the U.S. military. And they came up with a way for computers to share information easily.**
 
-But let's give some kudos to these smart people and find out a bit more about them. Without these Internet Pioneers, you wouldn't be reading this book (because it's online only <span class="o-emoji">🤷‍♀️</span>). A lot of the information below is referenced from the excellent book *[Where Wizards Stay Up Late: The Origins Of The Internet](http://www.amazon.com/Where-Wizards-Stay-Up-Late/dp/0684832674)* by [Katie Hafner](http://katiehafner.com/books/where-wizards-stay-up-late/), which I highly recommend you read.
+But let's give some kudos to these smart people and find out a bit more about them. Without these Internet Pioneers, you wouldn't be reading this book (because it's online only <span class="o-emoji" role="img" tabindex="0" aria-label="person shrugging">🤷‍</span>). A lot of the information below is referenced from the excellent book *[Where Wizards Stay Up Late: The Origins Of The Internet](http://www.amazon.com/Where-Wizards-Stay-Up-Late/dp/0684832674)* by [Katie Hafner](http://katiehafner.com/books/where-wizards-stay-up-late/), which I highly recommend you read.
 
 ### The pioneers of the internet
 
@@ -40,7 +40,7 @@ But let's give some kudos to these smart people and find out a bit more about th
     <img src="{{ site.baseurl }}/images/1/licklider.jpeg" srcset="{{ site.baseurl }}/images/1/licklider@2x.jpeg 2x" alt="Dr J.C.R. Licklider"/>
     <figcaption><small><em>Dr J.C.R. Licklider</em></small></figcaption>
 </figure>
-<p><strong>Joseph Carl Robnett Licklider</strong>, known among peers as "Lick", was a brilliant psychologist turned computer scientist. While working at MIT in the 1950s, he met a young engineer named Wesley Clark, who introduced him to the Lincoln TX-2 computer. The TX-2 was one of the first machines capable of interactive graphics. Interacting with the TX-2 led him to write his seminal paper <a href="http://groups.csail.mit.edu/medg/people/psz/Licklider.html">"Man Computer Symbiosis"</a> in 1960, which would go on to inspire many of the other internet pioneers. He is widely regarded as the man who revolutionised computer science and came up with the vision of computer networking.</p>
+<p><strong>Joseph Carl Robnett Licklider</strong>, known among peers as “Lick”, was a brilliant psychologist turned computer scientist. While working at MIT in the 1950s, he met a young engineer named Wesley Clark, who introduced him to the Lincoln TX-2 computer. The TX-2 was one of the first machines capable of interactive graphics. Interacting with the TX-2 led him to write his seminal paper <a href="http://groups.csail.mit.edu/medg/people/psz/Licklider.html">“Man Computer Symbiosis”</a> in 1960, which would go on to inspire many of the other internet pioneers. He is widely regarded as the man who revolutionised computer science and came up with the vision of computer networking.</p>
 </div>
 
 <div class="u-clear">
@@ -72,7 +72,7 @@ But let's give some kudos to these smart people and find out a bit more about th
     <img src="{{ site.baseurl }}/images/1/davies.jpeg" srcset="{{ site.baseurl }}/images/1/davies@2x.jpeg 2x" alt="Donald Davies"/>
     <figcaption><small><em>Donald Davies</em></small></figcaption>
 </figure>
-<p><strong>Donald Watts Davies</strong>, was a Welsh computer scientist, who also conceived of the idea of packet switching. It was highly coincidental that both Davies and Baran came up with the same idea independent of one another. Davies rolled the packet switched network, Mark I, in the U.K. and is credited as the man who invented the term "packet".</p>
+<p><strong>Donald Watts Davies</strong>, was a Welsh computer scientist, who also conceived of the idea of packet switching. It was highly coincidental that both Davies and Baran came up with the same idea independent of one another. Davies rolled the packet switched network, Mark I, in the U.K. and is credited as the man who invented the term “packet”.</p>
 </div>
 
 <div class="u-clear">
@@ -109,17 +109,17 @@ After that history lesson, let's bring it back to the original question, what ex
     <figcaption><small><em>The utility pole outside my house</em></small></figcaption>
 </figure>
 
-<p>There is a phrase used in telecommunications called "last mile" or "last kilometre" which refers to the part of the telecommunications network that is responsible for delivery to the end-user, like you and me. For example, those cables up on the utility poles along roads, or cell towers that broadcast to your mobile phones. For wired telecommunications, copper cables are commonly for the "last mile" infrastructure.</p>
+<p>There is a phrase used in telecommunications called “last mile” or “last kilometre” which refers to the part of the telecommunications network that is responsible for delivery to the end-user, like you and me. For example, those cables up on the utility poles along roads, or cell towers that broadcast to your mobile phones. For wired telecommunications, copper cables are commonly for the “last mile” infrastructure.</p>
 <p>You know those ethernet cables connected to your computer? Those are copper cables, twisted copper cables. Copper is used because it has the highest electrical conductivity of all non-precious metals. Your bits of data are transmitted across these copper cables as electrical pulses, but copper cabling is susceptible to electromagnetic interference from other cables and power wires. In fact, the maximum viable length of a single ethernet cable is around 100 metres. Cable internet gets its name from the fact that it transmits data over the same cables that transmit cable television.</p>
 </div>
 
-Many countries are investing in "Fibre to the *x*" (FTTX) infrastructure. *X* in this case can refer to *H* for home, *B* for business and so on. Fibre-optic cables are made of glass, engineered to reflect light signals across very long distances without much degradation. And they can carry a lot more data than copper cables. The downside, at least for now, is that fibre-optic components are expensive, because the manufacturing process is pretty labour-intensive. There is an observable transition from copper to fibre though, as demand for high-speed internet continues to grow exponentially.
+Many countries are investing in “Fibre to the *x*” (FTTX) infrastructure. *X* in this case can refer to *H* for home, *B* for business and so on. Fibre-optic cables are made of glass, engineered to reflect light signals across very long distances without much degradation. And they can carry a lot more data than copper cables. The downside, at least for now, is that fibre-optic components are expensive, because the manufacturing process is pretty labour-intensive. There is an observable transition from copper to fibre though, as demand for high-speed internet continues to grow exponentially.
 
 All the global submarine internet cables are fibre-optic cables. It is the only viable option for transmitting data across continents along the ocean floor reliably. You may be surprised (or not) to find that the locations of these cables are pretty easy to pin-point. Some of them are even out in the open, laying on some beach along various coasts around the world. But these cables are what allow a Skype call from Singapore to Argentina, or a text from San Francisco to Malaysia.
 
 <figure>
     <img src="{{ site.baseurl }}/images/1/submarine-cables.jpeg" srcset="{{ site.baseurl }}/images/1/submarine-cables@2x.jpeg 2x" alt="Global submarine cables"/>
-    <figcaption><small><em>Map of global submarine cables as of 28 Jan 2016 <a href="http://www.submarinecablemap.com/">(Image credit: Telegeography)</a></em></small></figcaption>
+    <figcaption><small><em>Map of global submarine cables as of 28 Jan 2016 (<a href="http://www.submarinecablemap.com/">Image credit: Telegeography</a>)</em></small></figcaption>
 </figure>
 
 ## Who takes care of the internet?

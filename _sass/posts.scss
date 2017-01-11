@@ -1,0 +1,87 @@
+// ==========
+// SETTINGS - Global variables, config switches
+// ==========
+@import 'settings';
+// ==========
+// TOOLS - Default mixins and functions
+// ==========
+@import 'tools';
+// ==========
+// GENERIC - Ground-zero styles (Normalize.css, resets, box-sizing)
+// ==========
+@import 'generic';
+// ==========
+// BASE - Unclassed HTML elements (type selectors)
+// ==========
+@import 'base';
+// ==========
+// VENDOR LIBRARIES - External libraries and plugins
+// ==========
+@import 'lib/syntax-highlighting';
+// ==========
+// OBJECTS - Cosmetic-free design patterns
+// ==========
+@import 'objects';
+// ==========
+// COMPONENTS - Designed components, chunks of UI
+// ==========
+@import 'components-footer';
+
+// Chapter styles
+.c-chapter-number {
+  color: map-get($colors, secondary);
+  color: color(secondary);
+}
+
+.c-chapter-content {
+  a {
+    color: map-get($colors, main);
+    color: color(main);
+    transition: all 0.2s;
+
+    &:hover {
+      text-shadow: 0 0 0.35px map-get($colors, main), 0 0 0.35px map-get($colors, main);
+      text-shadow: 0 0 0.35px color(main), 0 0 0.35px color(main);
+    }
+  }
+
+  li {
+    display: list-item;
+    line-height: 1.5;
+    margin-left: 1.5rem;
+  }
+
+  figcaption {
+    @include responsive-text-size(deci);
+    font-style: italic;
+    margin-bottom: 1.5em;
+    text-align: center;
+  }
+
+  figure {
+    img {
+      @include centre;
+      display: block;
+      margin-bottom: 0;
+    }
+  }
+}
+
+// Navigation styles
+.c-nav {
+  @include cf;
+  @include responsive-text-size(deci);
+  margin-bottom: 1.5em;
+}
+
+.c-next {
+  float: right;
+}
+// ==========
+// TRUMPS - Helpers and overrides
+// ==========
+@import 'trumps';
+// ==========
+// SHAME - For ad-hoc debugging or testing. Should be empty by default.
+// ==========
+@import 'shame';
