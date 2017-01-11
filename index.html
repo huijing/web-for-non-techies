@@ -10,17 +10,17 @@ layout: default
     <a class="l-cta c-cta" href="chapter00">Start reading online</a>
     <a class="l-cta c-cta" href="https://leanpub.com/understanding-the-web">Pay what you want</a>
   </div>
-  <p><em>Note: this book is open-source and currently work in progress. If you visit often, you will see half-written drafts and some things that make no sense at all. What you're witnessing, is actual work in progress. If you have any suggestions, please let me know. Tweet me (<a href="https://twitter.com/hj_chen">@hj_chen</a>) or <a href="https://github.com/huijing/web-for-non-techies/issues">open a GitHub issue</a> or something.</em></p>
+  <p><em>Note: this book is open-source and currently work in progress. If you visit often, you will see half-written drafts and some things that make no sense at all. What you're witnessing, is actual work in progress. If you have any suggestions, please let me know. Tweet me (<a class="o-link" href="https://twitter.com/hj_chen">@hj_chen</a>) or <a class="o-link" href="https://github.com/huijing/web-for-non-techies/issues">open a GitHub issue</a> or something.</em></p>
   <p>
     <span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">
       A non-technical guide to understanding the internet
     </span>
     by
-    <a xmlns:cc="http://creativecommons.org/ns#" href="https://www.chenhuijing.com" property="cc:attributionName" rel="cc:attributionURL">
+    <a class="o-link" xmlns:cc="http://creativecommons.org/ns#" href="https://www.chenhuijing.com" property="cc:attributionName" rel="cc:attributionURL">
       Chen Hui Jing
     </a>
     is licensed under a
-    <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">
+    <a class="o-link" rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">
       Creative Commons Attribution-NonCommercial 4.0 International License
     </a>
     . The code in this book may also be considered licensed under an MIT license.
@@ -32,7 +32,7 @@ layout: default
   <ol class="l-chapters c-chapters">
     {% for post in site.posts reversed %}
     <li class="l-chapter c-chapter">
-      <a class="o-link l-chapter-link c-chapter-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+      <a class="l-chapter-link c-chapter-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
     </li>
     {% endfor %}
   </ol>

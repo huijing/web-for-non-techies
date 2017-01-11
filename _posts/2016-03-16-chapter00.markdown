@@ -15,6 +15,6 @@ None of those emotions were particularly positive. But then I realised, it was m
 
 Most people are not unreasonable. Even if they may seem so at times, and those times can almost always be attributed to some form of communication breakdown. As developers, sometimes we don't do ourselves any favours by not communicating well to the non-developers. If they think what you're doing is magic, maybe you want to rethink your communication strategy.
 
-I want to explain the web in terms that everyone can understand. And to de-mystify what seems like magic to many. It's not enough to know rudimentary HTML and CSS and call it a day. There is so much more than that. Like, how the internet actually works. Why expecting things to look the same across all browsers is not a good idea. What is actually going on when a website "goes down"?
+I want to explain the web in terms that everyone can understand. And to de-mystify what seems like magic to many. It's not enough to know rudimentary HTML and CSS and call it a day. There is so much more than that. Like, how the internet actually works. Why expecting things to look the same across all browsers is not a good idea. What is actually going on when a website “goes down”?
 
 By the time you get through the book, the alphabet soup of acronyms that pepper many corporate conversations will make a lot more sense to you. You will have developed a fluff radar that can detect when somebody is trying to pull a fast one on you simply by tossing out every web acronym in his/her vocabulary.

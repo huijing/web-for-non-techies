@@ -3,7 +3,7 @@
 // =======
 .o-inner-wrapper {
   @include centre;
-  max-width: 45em;
+  max-width: 46em;
   padding-left: 1rem;
   padding-right: 1rem;
 }
@@ -44,10 +44,12 @@ span[role=img][aria-label]:hover::after {
 }
 
 .o-link {
+  color: map-get($colors, main);
+  color: color(main);
+  transition: all 0.2s;
+
   &:hover {
-    border-bottom: 1px solid map-get($colors, highlight1);
-    border-bottom: 1px solid color(highlight1);
-    color: map-get($colors, highlight1);
-    color: color(highlight1);
+    text-shadow: 0 0 0.35px map-get($colors, main), 0 0 0.35px map-get($colors, main);
+    text-shadow: 0 0 0.35px color(main), 0 0 0.35px color(main);
   }
 }
