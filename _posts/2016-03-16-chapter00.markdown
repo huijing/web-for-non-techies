@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Preface"
-date:   2016-03-16 18:04:57 +0800
+date: 2016-03-06
+public: true
 ---
 Throughout the course of my career, I've gone through a number of emotional stages when it came to interacting with non-technical people. Especially those who have a direct impact on my work. These can be accurately depicted with emojis.  
 <span class="o-emoji">😭</span>: loudly crying  

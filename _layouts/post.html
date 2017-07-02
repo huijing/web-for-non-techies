@@ -14,7 +14,11 @@ layout: default
   </header>
 
   <div class="l-chapter-content c-chapter-content" itemprop="articleBody">
+    {% if page.public %}
     {{ content }}
+    {% else %}
+    <p>Work in progress...</p>
+    {% endif %}
   </div>
 
 </article>

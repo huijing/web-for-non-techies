@@ -11,7 +11,6 @@
 h1,
 h2,
 h3,
-h4,
 p,
 ol,
 ul,
@@ -106,4 +105,5 @@ body {
 
 main {
   padding-top: 1.5em;
+  min-height: calc(100% - (2em * 0.8) - 1.5em);
 }

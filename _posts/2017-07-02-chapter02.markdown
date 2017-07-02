@@ -2,7 +2,8 @@
 layout: post
 chapter: "Chapter 2"
 title: "How does the internet work?"
-date:   2016-03-16 18:04:57 +0800
+date: 2017-07-02
+public: false
 categories: internet
 ---
 Now that we've established that the internet is actually just an enormous network of networks that connects devices all over the world together, let's try to understand how that is actually possible.

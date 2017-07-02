@@ -1,0 +1,165 @@
+---
+layout: post
+chapter: "Chapter 1"
+title: "What is the internet?"
+date: 2017-07-02
+public: true
+categories: "internet"
+---
+Let's talk about this thing called the **Internet**. Most people know *of* the internet. According to [Internet World Stats](http://www.internetworldstats.com/stats.htm), as of November 2015, there are around 3.3 billion internet users in the world. That's about 40% of the world's population. So we can surmise that a lot of people *use* the internet as well. But what is it? Don't worry if you can't answer the question. Turns out, [millions of people who use Facebook](http://qz.com/333313/milliions-of-facebook-users-have-no-idea-theyre-using-the-internet/) don't know they are using the internet.
+
+You may also have heard of something called the **World Wide Web**. Guess what? The Internet and the World Wide Web are *not* the same thing. But you, dear reader, will soon know the difference. Doesn't hurt to know some trivia, right? 
+
+The internet is the entire network of networks that connect all the world's devices to each other. It is the infrastructure that provides a number of services for us to communicate information. The world wide web is one of those services. Examples of other services are things like email, instant messaging or file transfer, just to name a few.
+
+<figure>
+    <img src="{{ site.baseurl }}/assets/images/1/internet-infra.jpg" srcset="{{ site.baseurl }}/assets/images/1/internet-infra@2x.jpg 2x" alt="The Internet"/>
+    <figcaption><small><em>There's lots more to the internet than just these though</em></small></figcaption>
+</figure>
+
+The internet has become relatively accessible in this day and age, and it's easy to take connectivity for granted. But if you stop and think about it, the fact that it works at all, that someone can send an instant message from South Africa to London using their smart-phone during their commute, is really amazing. Just half a century ago, this was far from a reality.
+
+Keep in mind that computers in this era were behemoths spanning entire rooms, and were very expensive. Instead of microchips, they ran on vacuum tubes, diodes and transistors. And each of these giant machines had their own proprietary operating systems, which made the sharing of resources and software very challenging.
+
+Programs were only usable on the machines they were developed for, and if you wanted a copy on the machine your organisation used, good luck duplicating what you just seen on those other guys' machine. Simplifying this process was one of the motivating factors behind the development of computer networking.
+
+<figure>
+    <img src="{{ site.baseurl }}/assets/images/1/tx2.jpeg" srcset="{{ site.baseurl }}/assets/images/1/tx2@2x.jpeg 2x" alt="Lincoln TX-2"/>
+    <figcaption><small><em>Ivan Sutherland using the Lincoln TX-2 (<a href="http://www.computerhistory.org/revolution/input-output/14/349/1878">Image credit: MIT Museum</a>)</em></small></figcaption>
+</figure>
+
+## A brief history of the internet and its pioneers
+
+If we go back to the beginning, we'll find that the internet had its roots in the military. Many technological advances were driven by military needs, and later evolved to have non-military uses. The internet is one of them. The 20th century was pretty tumultuous, somehow one World War wasn't enough, so we had another one. The Advanced Research Projects Agency (ARPA) was [set up in 1958](http://www.darpa.mil/about-us/timeline/where-the-future-becomes-now) by the United States government in response to the Soviets launching Sputnik 1. Basically, it was part of a military technology arms race. 
+
+**The TL:DR version of things is, the best and brightest minds were brought in to work for the U.S. military. And they came up with a way for computers to share information more easily.**
+
+But let's give some kudos to these smart people and find out a bit more about them. Without these Internet Pioneers, you wouldn't be reading this book (because it's online only <span class="o-emoji" role="img" tabindex="0" aria-label="person shrugging">🤷‍</span>). There is an excellent book by [Katie Hafner](http://katiehafner.com/books/where-wizards-stay-up-late/) titled *[Where Wizards Stay Up Late: The Origins Of The Internet](http://www.amazon.com/Where-Wizards-Stay-Up-Late/dp/0684832674)*, which I highly recommend you read.
+
+### Pioneering women of the internet
+
+Google the term “internet pioneers” and you find there is no shortage of information on men like J.C.R. Licklider, Claude Shannon, Robert Taylor, Lawrence Roberts, Paul Baran, Donald Davis, Wes Clark, Frank Heart, Vint Cerf, Robert Kahn (as you can see the list is long) and so on. All of these men are covered in the book I mentioned earlier, and their contributions to the internet have been documented in the record books for years to come.
+
+But there are a number of notable contributions from women as well, which may not be as widely known. And so we shall highlight some of them here. There are many more women whose contributions go unrecognised, and my hope is that eventually they will come to light.
+
+<figure class="u-float-right">
+    <img src="{{ site.baseurl }}/assets/images/1/lamarr.jpg" srcset="{{ site.baseurl }}/assets/images/1/lamarr@2x.jpg 2x" alt="Hedy Lamarr"/>
+    <figcaption><small><em>Hedy Lamarr</em></small></figcaption>
+</figure>
+
+**Hedwig Eva Maria Kiesler**, widely known as Hedy Lamarr, was an Austrian and American actress and inventor. During World War II, she came up with the idea of frequency hopping to prevent enemies from jamming the radio signals that controlled torpedoes, and was granted a patent on August 11, 1942. In spite of her technological acumen, she was more known for her beauty than her brains, and her story is a sad reminder of our society which still measures a woman's worth by her looks. [A documentary](https://tribecafilm.com/filmguide/bombshell-the-hedy-lamarr-story-2017) about her was released in April 2017.
+
+<figure class="u-float-left">
+    <img src="{{ site.baseurl }}/assets/images/1/perlman.jpg" srcset="{{ site.baseurl }}/assets/images/1/perlman@2x.jpg 2x" alt="Radia Perlman"/>
+    <figcaption><small><em>Radia Perlman</em></small></figcaption>
+</figure>
+
+**Radia Joy Perlman** is an American software designer and network engineer, who is known for inventing the algorithm for the [Spanning Tree Protocol](https://en.wikipedia.org/wiki/Spanning_Tree_Protocol), which is essentially what makes Ethernet work. She holds over 100 patents and made significant contributions to various other areas of network design and standardisation. You can read her [interview with The Atlantic](https://web.archive.org/web/20170702110349/https://www.theatlantic.com/technology/archive/2014/03/radia-perlman-dont-call-me-the-mother-of-the-internet/284146/) to find out more.
+
+<figure class="u-float-right">
+    <img src="{{ site.baseurl }}/assets/images/1/feinler.jpg" alt="Elizabeth Feinler"/>
+    <figcaption><small><em>Elizabeth Feinler</em></small></figcaption>
+</figure>
+
+**Elizabeth Jocelyn "Jake" Feinler** is an American information scientist and was director of the Network Information Systems Center at the Stanford Research Institute (SRI International), in charge of the Network Information Center (NIC) for ARPANET, Defense Data Network (DDN), and the Internet. Together with Steve Crocker, Jon Postel, Joyce Reynolds and other members of the Network Working Group (NWG), they developed RFCs into the official technical notes for ARPANet.
+You can read her [interview for the IEEE History Center](https://web.archive.org/web/20170628130512/http://ethw.org/Oral-History:Elizabeth_%22Jake%22_Feinler) to find out more.
+
+<figure class="u-float-left">
+    <img src="{{ site.baseurl }}/assets/images/1/strazisar.jpg" srcset="{{ site.baseurl }}/assets/images/1/strazisar@2x.jpg 2x" alt="Ginny Strazisar"/>
+    <figcaption><small><em>Ginny Strazisar</em></small></figcaption>
+</figure>
+
+**Virginia (Ginny) Strazisar** is an American software engineer who worked at Bolt, Beranek and Newman and wrote the first internetworking router (then called “gateway”) software for the new TCP/IP protocols. There isn't lot of information about her on the internet but here's [a relevant article on the world's first internet transmission](https://web.archive.org/web/20161013152432/http://www.theregister.co.uk/2007/11/12/thirtieth_anniversary_of_first_internet_connection/?page=2).
+
+<figure class="u-float-right">
+    <img src="{{ site.baseurl }}/assets/images/1/reynolds.jpg" srcset="{{ site.baseurl }}/assets/images/1/reynolds@2x.jpg 2x" alt="Joyce Reynolds"/>
+    <figcaption><small><em>Joyce Reynolds</em></small></figcaption>
+</figure>
+
+**Joyce K. Reynolds** was an American computer scientist and together with Jon Postel, worked on the development of the Internet Assigned Numbers Authority (IANA), and later the transition of IANA functions over to the Internet Corporation for Assigned Names and Numbers (ICANN). She authored and co-authored over 95 RFCs and contributed to the development of numerous internet protocols like the DARPA Experimental Multimedia Mail System, the Post Office Protocol, the Telnet Protocol, Telnet Option Specifications. This is her entry in [RFC 1336: Who's Who in the Internet Biographies of IAB, IESG and IRSG Members](https://web.archive.org/web/20170702111039/https://tools.ietf.org/html/rfc1336#section-4.21).
+
+<figure class="u-float-left">
+    <img src="{{ site.baseurl }}/assets/images/1/estrada.jpg" srcset="{{ site.baseurl }}/assets/images/1/estrada@2x.jpg 2x" alt="Susan Estrada"/>
+    <figcaption><small><em>Susan Estrada</em></small></figcaption>
+</figure>
+
+**Susan Estrada** is the founder of CERFnet, one of the original regional IP networks and successfully commercialised the network for both academic and private sector use. CERFnet was a pioneering network that played a large role in the early commercial acceptance of the internet. You can find out more in [her feature on the Internet Hall of Fame](https://web.archive.org/web/20170304222056/http://internethalloffame.org/inductees/susan-estrada).
+
+<figure class="u-float-right">
+    <img src="{{ site.baseurl }}/assets/images/1/hafkin.jpg" alt="Nancy Hafkin"/>
+    <figcaption><small><em>Nancy Hafkin</em></small></figcaption>
+</figure>
+
+**Nancy J. Hafkin** is a pioneer and innovator in promoting Information and Communications Technology (ICT) in developing areas. Her work helped build Africa's ICT framework, establishing internet infrastructure across the continent by building email nodes. With support from the United Nations, she fought to influence telecommunications policy and by the time she left her post, wireline internet was well established in Africa. You can read [a feature on her in WIRED magazine](https://web.archive.org/web/20170702112720/https://www.wired.com/2012/07/nancy-hafkin/).
+
+<figure class="u-float-left">
+    <img src="{{ site.baseurl }}/assets/images/1/holz.jpg" srcset="{{ site.baseurl }}/assets/images/1/holz@2x.jpg 2x" alt="Ida Holz"/>
+    <figcaption><small><em>Ida Holz</em></small></figcaption>
+</figure>
+
+**Ida Holz Bard** is a Uruguayan software engineer and researcher. She was one of the first women in the Computer Science program at Uruguay's University of the Republic, which installed the first node of the internet in Uruguay when she directed the Central Computer Services there. She is a key figure in the establishment of the Internet in Latin America and you can read her [feature on the Internet Hall of Fame](https://web.archive.org/web/20170702123032/http://internethalloffame.org/blog/2017/01/16/ida-holz-uruguayan-internet) to find out more.
+
+<figure class="u-float-right">
+    <img src="{{ site.baseurl }}/assets/images/1/löwinder.jpg" srcset="{{ site.baseurl }}/assets/images/1/löwinder@2x.jpg 2x" alt="Anne-Marie Eklund Löwinder"/>
+    <figcaption><small><em>Anne-Marie Eklund Löwinder</em></small></figcaption>
+</figure>
+
+**Anne-Marie Eklund Löwinder** is a Swedish computer scientist and researcher who is is [one of seven keyholders](https://web.archive.org/web/20170702130746/https://www.theguardian.com/technology/2014/feb/28/seven-people-keys-worldwide-internet-security-web) who safeguard DNSSEC key generation for the internet root zone. She is one of Sweden's foremost IT security experts and made sure .SE was the world's first top-level domain to be signed with Domain Name System Security Extensions (DNSSEC). You can find out more in [her interview with SC Media UK](https://web.archive.org/web/20170702131238/https://www.scmagazineuk.com/keys-to-the-internet/article/541539/).
+
+<figure class="u-float-left">
+    <img src="{{ site.baseurl }}/assets/images/1/kanchanasut.jpg" srcset="{{ site.baseurl }}/assets/images/1/kanchanasut@2x.jpg 2x" alt="Kanchana Kanchanasut"/>
+    <figcaption><small><em>Kanchana Kanchanasut</em></small></figcaption>
+</figure>
+
+**Kanchana Kanchanasut** is a Thai computer scientist and was one of the first to bring the internet to Thailand. She founded the .th domain and together with her Japanese colleague, connected the Asian Institute of Technology (AIT) to the rest of the world via email. She set up the Internet Education and Research Laboratory (intERLab) at AIT to increase the pool of Internet engineers in the region, contributing immensely to the development of the Internet in Asia. You can read more about her in [her feature on the Internet Hall of Fame](https://web.archive.org/web/20170415075959/http://internethalloffame.org/inductees/kanchana-kanchanasut).
+
+<figure class="u-float-right">
+    <img src="{{ site.baseurl }}/assets/images/1/hu.jpg" srcset="{{ site.baseurl }}/assets/images/1/hu@2x.jpg 2x" alt="Hu Qiheng"/>
+    <figcaption><small><em>Hu Qiheng</em></small></figcaption>
+</figure>
+
+**Hu Qiheng** is a Chinese engineer and research professor who led the National Computing and Networking Facility of China (NCFC) project team which brought the Internet to mainland China. She was one of the earliest investigators in the field of pattern recognition and artificial intelligence in China and is the President of the Internet Society of China (ISC). You can read more about her in [her feature on the Internet Hall of Fame](https://web.archive.org/web/20170118145850/http://internethalloffame.org/inductees/qiheng-hu).
+
+## Devices, cables and radio waves
+
+After that history lesson, let's bring it back to the original question, what exactly is the internet? Well, the internet is the entire network of networks that connect all the world's devices to each other. It is made up of various copper cables, fibre-optic cables and wireless networks all across the planet. The internet was built to transfer information, digital information to be exact. 
+
+Every computer's inner workings consist of a plethora of microchips which contain thousands of electric micro-circuits. These circuits only have two states, on or off, AKA 1 or 0, respectively. These two numbers are binary digits, or bits for short. Sequences of such bits in different combinations can be used to represent all kinds of information, digitally.
+
+<figure class="u-float-right">
+    <img src="{{ site.baseurl }}/assets/images/1/utility-pole.jpeg" srcset="{{ site.baseurl }}/assets/images/1/utility-pole@2x.jpeg 2x" alt="Utility pole"/>
+    <figcaption><small><em>The utility pole outside my house</em></small></figcaption>
+</figure>
+
+There is a phrase used in telecommunications called “last mile” or “last kilometre” which refers to the part of the telecommunications network that is responsible for delivery to the end-user, like you and me. For example, those cables up on the utility poles along roads, or cell towers that broadcast to your mobile phones. For wired telecommunications, copper cables are commonly for the “last mile” infrastructure.
+
+You know those ethernet cables connected to your computer? Those are copper cables, twisted copper cables. Copper is used because it has the highest electrical conductivity of all non-precious metals. Your bits of data are transmitted across these copper cables as electrical pulses, but copper cabling is susceptible to electromagnetic interference from other cables and power wires. In fact, the maximum viable length of a single ethernet cable is around 100 metres. Cable internet gets its name from the fact that it transmits data over the same cables that transmit cable television.
+
+Many countries are investing in “Fibre to the *x*” (FTTX) infrastructure. *X* in this case can refer to *H* for home, *B* for business and so on. Fibre-optic cables are made of glass, engineered to reflect light signals across very long distances without much degradation. And they can carry a lot more data than copper cables. The downside, at least for now, is that fibre-optic components are expensive, because the manufacturing process is pretty labour-intensive. There is an observable transition from copper to fibre though, as demand for high-speed internet continues to grow exponentially.
+
+All the global submarine internet cables are fibre-optic cables. It is the only viable option for transmitting data across continents along the ocean floor reliably. You may be surprised (or not) to find that the locations of these cables are pretty easy to pin-point. Some of them are even out in the open, laying on some beach along various coasts around the world. But these cables are what allow a Skype call from Singapore to Argentina, or a text from San Francisco to Malaysia.
+
+<figure>
+    <img src="{{ site.baseurl }}/assets/images/1/submarine-cables.jpeg" srcset="{{ site.baseurl }}/assets/images/1/submarine-cables@2x.jpeg 2x" alt="Global submarine cables"/>
+    <figcaption><small><em>Map of global submarine cables as of 28 Jan 2016 (<a href="http://www.submarinecablemap.com/">Image credit: Telegeography</a>)</em></small></figcaption>
+</figure>
+
+## Who takes care of the internet?
+
+The internet in its entirety is not owned by anyone. Part of the physical infrastructure are owned by many different corporations, governments, schools, organisations, even private citizens. Given the disparate nature of ownership, there are several organisations in charge of internet-related standards, and pushing to improve the internet for everyone. The key organisation is the [Internet Society (ISOC)](http://www.internetsociety.org/), an international, non-profit, membership organisation that fosters the expansion of the Internet by providing financial and legal support for the following groups:
+
+- [Internet Engineering Task Force (IETF)](https://www.ietf.org/)
+- [Internet Engineering Steering Group (IESG)](https://www.ietf.org/iesg/)
+- [Internet Architecture Board (IAB)](https://www.iab.org/)
+- [Internet Assigned Numbers Authority (IANA)](http://www.iana.org/)    
+- [RFC Editor](https://www.rfc-editor.org/)
+- [IETF Secretariat](https://www.ietf.org/secretariat.html)
+- [IETF Trust](http://trustee.ietf.org/)
+
+## Related resources
+- [Where Wizards Stay Up Late: The Origins Of The Internet](http://www.amazon.com/Where-Wizards-Stay-Up-Late/dp/0684832674) by [Katie Hafner](http://katiehafner.com/books/where-wizards-stay-up-late/) (*Widely considered to be THE definitive book on internet history*)
+- [Tubes: A Journey to the Center of the Internet](http://www.amazon.com/Tubes-Journey-Internet-Andrew-Blum/dp/0061994952) by [Andrew Blum](http://andrewblum.net/)
+- [Interview with Walter Isaacson](https://youtu.be/rRqLSiLuQgA) by [Talks at Google](https://www.youtube.com/channel/UCbmNph6atAoGfqLoCL_duAg) (*He's the author of The Innovators: How a Group of Hackers, Geniuses, and Geeks Created the Digital Revolution*)
+- [Brief history of the internet](http://www.internetsociety.org/internet/what-internet/history-internet/brief-history-internet) by [Internet Society](http://www.internetsociety.org/)
+- [How the Internet works: Submarine fiber, brains in jars, and coaxial cables](http://arstechnica.com/information-technology/2016/05/how-the-internet-works-submarine-cables-data-centres-last-mile/)
+- [Internet World Stats](http://www.internetworldstats.com/stats.htm) by [Miniwatts Marketing Group](http://www.miniwatts.com/)
