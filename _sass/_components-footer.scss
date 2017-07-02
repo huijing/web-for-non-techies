@@ -6,11 +6,8 @@
   background: color(secondary);
   color: map-get($colors, bg);
   color: color(bg);
-  padding: 1rem 0;
-
-  @include mappy-bp(medium) {
-    padding: 1rem 0;
-  }
+  font-size: 80%;
+  padding: 0.5em 0;
 }
 
 .c-footer-link {

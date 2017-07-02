@@ -2,57 +2,47 @@
 // Base
 // ====
 h1 {
-  @include responsive-text-size(mega);
-  font-family: $header-font;
-  margin-bottom: 0.93665em;
+  font-size: 185%;
+  line-height: 1.2;
+  margin-bottom: 0.5em;
 }
 
 h2 {
-  @include responsive-text-size(kilo);
-  font-family: $header-font;
-  margin-bottom: 1.05337em;
+  font-size: 150%;
+  line-height: 1.2;
+  margin-bottom: 0.5em;
 }
 
 h3 {
-  @include responsive-text-size(hecto);
-  font-family: $header-font;
-  margin-bottom: 1.18534em;
-}
-
-h4 {
-  @include responsive-text-size(deca);
-  font-family: $header-font;
-  margin-bottom: 1.33323em;
-}
-
-h5 {
-  @include responsive-text-size(base);
-  font-family: $header-font;
-  margin-bottom: 1.5em;
-}
-
-small {
-  @include responsive-text-size(deci);
-  margin-bottom: 1.68781em;
+  font-size: 125%;
+  margin-bottom: 0.5em;
 }
 
 main {
   ul,
   ol,
   p {
-    @include responsive-text-size(base);
-    margin-bottom: 1.5em;
+    margin-bottom: 1em;
   }
 
   img {
     @include centre;
     display: block;
-    margin-bottom: 2.0625em;
+    margin-bottom: 1em;
   }
 }
 
 hr {
-  margin-bottom: 1.5em;
+  margin-bottom: 1em;
 }
 
+a {
+  color: map-get($colors, main);
+  color: color(main);
+  transition: all 0.2s;
 
+  &:hover {
+    text-shadow: 0 0 0.35px map-get($colors, main), 0 0 0.35px map-get($colors, main);
+    text-shadow: 0 0 0.35px color(main), 0 0 0.35px color(main);
+  }
+}

@@ -40,7 +40,7 @@
 }
 
 .l-chapters {
-  margin-left: 2rem;
+  margin-left: 2em;
   padding: 0;
 }
 
@@ -50,13 +50,13 @@
 }
 
 .l-chapter-link {
-  margin-left: 1rem;
+  margin-left: 1em;
 
   &::before {
-    height: 2rem;
-    left: -2rem;
+    height: 1.5em;
+    left: -1.5em;
     position: absolute;
-    width: 2rem;
+    width: 1.5em;
   }
 }
 // ==========
@@ -75,7 +75,6 @@
 }
 
 .c-cta {
-  @include responsive-text-size(base);
   background: map-get($colors, secondary);
   background: color(secondary);
   box-shadow: 2px 2px 5px 0 rgba(0, 0, 0, 0.75);
@@ -108,6 +107,7 @@
     border-bottom: 1px solid color(highlight1);
     color: map-get($colors, highlight1);
     color: color(highlight1);
+    text-shadow: none;
   }
 
   &::before {
@@ -118,8 +118,7 @@
     color: color(bg);
     content: counter(li);
     counter-increment: li;
-    font-size: 0.7em;
-    line-height: 2rem;
+    line-height: 1.5em;
     text-align: center;
   }
 }

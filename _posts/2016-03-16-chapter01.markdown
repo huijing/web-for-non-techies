@@ -12,7 +12,7 @@ You may also have heard of something called the **World Wide Web**. Guess what? 
 The internet is the entire network of networks that connect all the world's devices to each other. It is the infrastructure that provides a number of services for us to communicate information. The world wide web is one of those services. Examples of other services are things like email, instant messaging or file transfer, just to name a few.
 
 <figure>
-    <img src="{{ site.baseurl }}/images/1/internet-infra.jpg" srcset="{{ site.baseurl }}/images/1/internet-infra@2x.jpg 2x" alt="The Internet"/>
+    <img src="{{ site.baseurl }}/assets/images/1/internet-infra.jpg" srcset="{{ site.baseurl }}/assets/images/1/internet-infra@2x.jpg 2x" alt="The Internet"/>
     <figcaption><small><em>There's lots more to the internet than just these though</em></small></figcaption>
 </figure>
 
@@ -21,7 +21,7 @@ The internet has become relatively accessible in this day and age, and it's easy
 Keep in mind that computers in this era were behemoths spanning entire rooms, and were very expensive. Instead of microchips, they ran on vacuum tubes, diodes and transistors. And each of these giant machines had their own proprietary operating systems, which made the sharing of resources and software very challenging. Programs were only usable on the machines they were developed for, and if you wanted a copy on the machine your organisation used, good luck duplicating what you just seen on those other guys' machine. Simplifying this process was one of the motivating factors behind the development of computer networking.
 
 <figure>
-    <img src="{{ site.baseurl }}/images/1/tx2.jpeg" srcset="{{ site.baseurl }}/images/1/tx2@2x.jpeg 2x" alt="Lincoln TX-2"/>
+    <img src="{{ site.baseurl }}/assets/images/1/tx2.jpeg" srcset="{{ site.baseurl }}/assets/images/1/tx2@2x.jpeg 2x" alt="Lincoln TX-2"/>
     <figcaption><small><em>Ivan Sutherland using the Lincoln TX-2 (<a href="http://www.computerhistory.org/revolution/input-output/14/349/1878">Image credit: MIT Museum</a>)</em></small></figcaption>
 </figure>
 
@@ -37,7 +37,7 @@ But let's give some kudos to these smart people and find out a bit more about th
 
 <div class="u-clear">
 <figure class="u-float-left">
-    <img src="{{ site.baseurl }}/images/1/licklider.jpeg" srcset="{{ site.baseurl }}/images/1/licklider@2x.jpeg 2x" alt="Dr J.C.R. Licklider"/>
+    <img src="{{ site.baseurl }}/assets/images/1/licklider.jpeg" srcset="{{ site.baseurl }}/assets/images/1/licklider@2x.jpeg 2x" alt="Dr J.C.R. Licklider"/>
     <figcaption><small><em>Dr J.C.R. Licklider</em></small></figcaption>
 </figure>
 <p><strong>Joseph Carl Robnett Licklider</strong>, known among peers as “Lick”, was a brilliant psychologist turned computer scientist. While working at MIT in the 1950s, he met a young engineer named Wesley Clark, who introduced him to the Lincoln TX-2 computer. The TX-2 was one of the first machines capable of interactive graphics. Interacting with the TX-2 led him to write his seminal paper <a href="http://groups.csail.mit.edu/medg/people/psz/Licklider.html">“Man Computer Symbiosis”</a> in 1960, which would go on to inspire many of the other internet pioneers. He is widely regarded as the man who revolutionised computer science and came up with the vision of computer networking.</p>
@@ -45,7 +45,7 @@ But let's give some kudos to these smart people and find out a bit more about th
 
 <div class="u-clear">
 <figure class="u-float-right">
-    <img src="{{ site.baseurl }}/images/1/taylor.jpg" alt="Robert Taylor"/>
+    <img src="{{ site.baseurl }}/assets/images/1/taylor.jpg" alt="Robert Taylor"/>
     <figcaption><small><em>Robert Taylor</em></small></figcaption>
 </figure>
 <p><strong>Robert William Taylor</strong>, known as Bob Taylor, was also a psychologist who went into computer research. He had worked with Licklider at ARPA. In 1966, he kickstarted the implementation of Licklider's idea of networked computing with the ARPAnet project. Contrary to popular belief, this project was not motivated by military concerns. Computing resources were silo-ed from each other and researchers ended up duplicating and isolating these expensive resources. A new computing project could range from $500,000 to $3 million, but none of the results or resources could be shared easily. Licklider's vision of one computer being able to tap resources inside another was the concept on which ARPAnet was built on.</p> 
@@ -53,7 +53,7 @@ But let's give some kudos to these smart people and find out a bit more about th
 
 <div class="u-clear">
 <figure class="u-float-left">
-    <img src="{{ site.baseurl }}/images/1/roberts.jpeg" srcset="{{ site.baseurl }}/images/1/roberts@2x.jpeg 2x" alt="Dr Lawrence Roberts"/>
+    <img src="{{ site.baseurl }}/assets/images/1/roberts.jpeg" srcset="{{ site.baseurl }}/assets/images/1/roberts@2x.jpeg 2x" alt="Dr Lawrence Roberts"/>
     <figcaption><small><em>Dr Lawrence Roberts</em></small></figcaption>
 </figure>
 <p><strong>Lawrence Gilman Roberts</strong>, often referred to as Larry Roberts, was heavily recruited by Robert Taylor to join ARPA. An extremely smart man, he taught himself the basics of computer design and operations on the TX-0 computer, and wrote the entire operating system for the TX-2 computer at Lincoln. </p>
@@ -61,7 +61,7 @@ But let's give some kudos to these smart people and find out a bit more about th
 
 <div class="u-clear">
 <figure class="u-float-right">
-    <img src="{{ site.baseurl }}/images/1/baran.jpeg" srcset="{{ site.baseurl }}/images/1/baran@2x.jpeg 2x" alt="Paul Baran"/>
+    <img src="{{ site.baseurl }}/assets/images/1/baran.jpeg" srcset="{{ site.baseurl }}/assets/images/1/baran@2x.jpeg 2x" alt="Paul Baran"/>
     <figcaption><small><em>Paul Baran</em></small></figcaption>
 </figure>
 <p><strong>Paul Baran</strong> was a Polish-American engineer who was one of the first to see that digital computing was the solution to building a robust communications network. He observed that a damaged human brain could, to some extent, recover some functionality by re-creating new pathways to bypass the dysfunctional regions. This concept could be applied toward building a communications network that could survive attack. He also came up with the concept of breaking up the transmissions into packets, which would travel through the network and be reassembled at their destination. A stark contrast against circuit-switching techniques used at the time.</p> 
@@ -69,7 +69,7 @@ But let's give some kudos to these smart people and find out a bit more about th
 
 <div class="u-clear">
 <figure class="u-float-left">
-    <img src="{{ site.baseurl }}/images/1/davies.jpeg" srcset="{{ site.baseurl }}/images/1/davies@2x.jpeg 2x" alt="Donald Davies"/>
+    <img src="{{ site.baseurl }}/assets/images/1/davies.jpeg" srcset="{{ site.baseurl }}/assets/images/1/davies@2x.jpeg 2x" alt="Donald Davies"/>
     <figcaption><small><em>Donald Davies</em></small></figcaption>
 </figure>
 <p><strong>Donald Watts Davies</strong>, was a Welsh computer scientist, who also conceived of the idea of packet switching. It was highly coincidental that both Davies and Baran came up with the same idea independent of one another. Davies rolled the packet switched network, Mark I, in the U.K. and is credited as the man who invented the term “packet”.</p>
@@ -77,7 +77,7 @@ But let's give some kudos to these smart people and find out a bit more about th
 
 <div class="u-clear">
 <figure class="u-float-right">
-    <img src="{{ site.baseurl }}/images/1/baran.jpeg" srcset="{{ site.baseurl }}/images/1/baran@2x.jpeg 2x" alt="Wes Clark"/>
+    <img src="{{ site.baseurl }}/assets/images/1/baran.jpeg" srcset="{{ site.baseurl }}/assets/images/1/baran@2x.jpeg 2x" alt="Wes Clark"/>
     <figcaption><small><em>Wes Clark</em></small></figcaption>
 </figure>
 <p><strong>Wesley Allison Clark</strong> was a legendary computer engineer whose work formed the basis on which modern personal computing, computer graphics and the internet were built on. He came up with the idea of building a network of computers dedicated to the task of routing.</p> 
@@ -85,7 +85,7 @@ But let's give some kudos to these smart people and find out a bit more about th
 
 <div class="u-clear">
 <figure class="u-float-left">
-    <img src="{{ site.baseurl }}/images/1/davies.jpeg" srcset="{{ site.baseurl }}/images/1/davies@2x.jpeg 2x" alt="Frank Heart"/>
+    <img src="{{ site.baseurl }}/assets/images/1/davies.jpeg" srcset="{{ site.baseurl }}/assets/images/1/davies@2x.jpeg 2x" alt="Frank Heart"/>
     <figcaption><small><em>Frank Heart</em></small></figcaption>
 </figure>
 <p><strong>Frank Heart</strong> led a rockstar team of engineers at Bolt, Beranek and Newman (BBN), to materialise Wes Clark's router idea. These routers, known as Interface Message Processors (IMPs), would start off connecting four sites, but expand to take more. The project was completed on time and on budget. Had it not, the Internet might not have developed as soon as it had, and might have been very different from what we have now.</p>
@@ -93,7 +93,7 @@ But let's give some kudos to these smart people and find out a bit more about th
 
 <div class="u-clear">
 <figure class="u-float-right">
-    <img src="{{ site.baseurl }}/images/1/baran.jpeg" srcset="{{ site.baseurl }}/images/1/baran@2x.jpeg 2x" alt="Wes Clark"/>
+    <img src="{{ site.baseurl }}/assets/images/1/baran.jpeg" srcset="{{ site.baseurl }}/assets/images/1/baran@2x.jpeg 2x" alt="Wes Clark"/>
     <figcaption><small><em>Wes Clark</em></small></figcaption>
 </figure>
 <p><strong>Wesley Allison Clark</strong> was a legendary computer engineer whose work formed the basis on which modern personal computing, computer graphics and the internet were built on. He came up with the idea of building a network of computers dedicated to the task of routing.</p> 
@@ -105,7 +105,7 @@ After that history lesson, let's bring it back to the original question, what ex
 
 <div class="u-clear">
 <figure class="u-float-right">
-    <img src="{{ site.baseurl }}/images/1/utility-pole.jpeg" srcset="{{ site.baseurl }}/images/1/utility-pole@2x.jpeg 2x" alt="Utility pole"/>
+    <img src="{{ site.baseurl }}/assets/images/1/utility-pole.jpeg" srcset="{{ site.baseurl }}/assets/images/1/utility-pole@2x.jpeg 2x" alt="Utility pole"/>
     <figcaption><small><em>The utility pole outside my house</em></small></figcaption>
 </figure>
 
@@ -118,7 +118,7 @@ Many countries are investing in “Fibre to the *x*” (FTTX) infrastructure. *X
 All the global submarine internet cables are fibre-optic cables. It is the only viable option for transmitting data across continents along the ocean floor reliably. You may be surprised (or not) to find that the locations of these cables are pretty easy to pin-point. Some of them are even out in the open, laying on some beach along various coasts around the world. But these cables are what allow a Skype call from Singapore to Argentina, or a text from San Francisco to Malaysia.
 
 <figure>
-    <img src="{{ site.baseurl }}/images/1/submarine-cables.jpeg" srcset="{{ site.baseurl }}/images/1/submarine-cables@2x.jpeg 2x" alt="Global submarine cables"/>
+    <img src="{{ site.baseurl }}/assets/images/1/submarine-cables.jpeg" srcset="{{ site.baseurl }}/assets/images/1/submarine-cables@2x.jpeg 2x" alt="Global submarine cables"/>
     <figcaption><small><em>Map of global submarine cables as of 28 Jan 2016 (<a href="http://www.submarinecablemap.com/">Image credit: Telegeography</a>)</em></small></figcaption>
 </figure>
 

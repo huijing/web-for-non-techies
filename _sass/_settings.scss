@@ -14,6 +14,28 @@ $textpoints: (
   large: 48em,
 );
 
+// Responsive typography
+$min-width: 320;
+$max-width: 960;
+$min-font: 18;
+$max-font: 22;
+
+:root {
+  font-size: #{$min-font}px;
+}
+
+@media (min-width: #{$min-width}px) and (max-width: #{$max-width}px) {
+  :root {
+    font-size: calc( #{$min-font}px + (#{$max-font} - #{$min-font}) * ( (100vw - #{$min-width}px) / ( #{$max-width} - #{$min-width})));
+  }
+}
+
+@media (min-width: #{$max-width}px) {
+  :root {
+    font-size: #{$max-font}px;
+  }
+}
+
 // Fonts
 @charset 'utf-8';
 
@@ -52,80 +74,6 @@ $textpoints: (
 $base-font: 'Sorts Mill Goudy', 'Georgia', serif;
 $header-font: 'Abel', 'Arial Narrow', sans-serif;
 $code-font: 'Courier New', monospace;
-
-// Set typography sizes
-$text-sizing: (
-  deci: (
-    small: (
-      font-size: 1em,
-      line-height: 1.5
-    ),
-    large: (
-      font-size: 1.222em,
-      line-height: 1.5
-    )
-  ),
-  base: (
-    small: (
-      font-size: 1.125em,
-      line-height: 1.5
-    ),
-    large: (
-      font-size: 1.375em,
-      line-height: 1.5
-    )
-  ),
-  deca: (
-    small: (
-      font-size: 1.266em,
-      line-height: 1.5
-    ),
-    large: (
-      font-size: 1.547em,
-      line-height: 1.5
-    )
-  ),
-  hecto: (
-    small: (
-      font-size: 1.424em,
-      line-height: 1.5
-    ),
-    large: (
-      font-size: 1.74em,
-      line-height: 1.5
-    ),
-  ),
-  kilo: (
-    small: (
-      font-size: 1.602em,
-      line-height: 1.5
-    ),
-    large: (
-      font-size: 1.958em,
-      line-height: 1.5
-    ),
-  ),
-  mega: (
-    small: (
-      font-size: 1.802em,
-      line-height: 1.5
-    ),
-    large: (
-      font-size: 2.202em,
-      line-height: 1.5
-    ),
-  ),
-  giga: (
-    small: (
-      font-size: 2.027em,
-      line-height: 1.5
-    ),
-    large: (
-      font-size: 2.478em,
-      line-height: 1.5
-    ),
-  )
-);
 
 // Colours
 $colors: (

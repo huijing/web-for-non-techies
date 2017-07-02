@@ -7,18 +7,20 @@
   <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
 
   {% if page.is_post %}
-    <link rel="stylesheet" href="{{ "/css/posts.css" | prepend: site.baseurl }}">
+    <link rel="stylesheet" href="{{ "/assets/css/posts.css" | prepend: site.baseurl }}">
     {% else %}
-    <link rel="stylesheet" href="{{ "/css/styles.css" | prepend: site.baseurl }}">
+    <link rel="stylesheet" href="{{ "/assets/css/styles.css" | prepend: site.baseurl }}">
   {% endif %}
 
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}">
 
-  <link rel="apple-touch-icon" sizes="180x180" href="{{ "/apple-touch-icon.png" | prepend: site.baseurl }}">
-  <link rel="icon" type="image/png" href="{{ "/favicon-32x32.png" | prepend: site.baseurl }}" sizes="32x32">
-  <link rel="icon" type="image/png" href="{{ "/favicon-16x16.png" | prepend: site.baseurl }}" sizes="16x16">
-  <link rel="manifest" href="{{ "/manifest.json" | prepend: site.baseurl }}">
-  <link rel="mask-icon" href="{{ "/safari-pinned-tab.svg" | prepend: site.baseurl }}" color="#5bbad5">
+  <link rel="apple-touch-icon" sizes="180x180" href="{{ "/assets/favicons/apple-touch-icon.png" | prepend: site.baseurl }}">
+  <link rel="icon" type="image/png" href="{{ "/assets/favicons/favicon-32x32.png" | prepend: site.baseurl }}" sizes="32x32">
+  <link rel="icon" type="image/png" href="{{ "/assets/favicons/favicon-16x16.png" | prepend: site.baseurl }}" sizes="16x16">
+  <link rel="manifest" href="{{ "/assets/favicons/manifest.json" | prepend: site.baseurl }}">
+  <link rel="mask-icon" href="{{ "/assets/favicons/safari-pinned-tab.svg" | prepend: site.baseurl }}" color="#5bbad5">
+  <link rel="shortcut icon" href="{{ "/assets/favicons/favicon.ico" | prepend: site.baseurl }}">
+  <meta name="msapplication-config" content="{{ "/assets/favicons/browserconfig.xml" | prepend: site.baseurl }}">
   <meta name="theme-color" content="#ffffff">
 </head>

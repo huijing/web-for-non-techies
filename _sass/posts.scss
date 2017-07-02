@@ -27,14 +27,13 @@
 // ==========
 .l-chapter-content {
   li {
+    display: list-item;
     margin-left: 1.5rem;
   }
 
-  figcaption {
-    margin-bottom: 1.5em;
-  }
-
   figure {
+    margin-bottom: 1em;
+
     img {
       @include centre;
       display: block;
@@ -59,23 +58,22 @@
 .c-chapter-number {
   color: map-get($colors, secondary);
   color: color(secondary);
+  font-size: 80%;
 }
 
 .c-chapter-content {
   li {
-    display: list-item;
     line-height: 1.5;
   }
 
   figcaption {
-    @include responsive-text-size(deci);
     font-style: italic;
     text-align: center;
   }
 }
 
 .c-nav {
-  @include responsive-text-size(deci);
+  font-size: 80%;
 }
 // ==========
 // TRUMPS - Helpers and overrides

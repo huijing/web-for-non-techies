@@ -3,15 +3,16 @@
 // =======
 .o-inner-wrapper {
   @include centre;
-  max-width: 46em;
-  padding-left: 1rem;
-  padding-right: 1rem;
+  max-width: 38rem;
+  padding-left: 1em;
+  padding-right: 1em;
 }
 
 .o-emoji {
   display: inline-block;
   vertical-align: middle;
   font-family: 'Segoe UI Emoji';
+  font-size: 115%;
 }
 
 span[role=img][aria-label],
@@ -40,16 +41,5 @@ span[role=img][aria-label]:hover::after {
 @media print {
   span[role=img][aria-label]::after {
     content: " (" attr(aria-label) ") ";
-  }
-}
-
-.o-link {
-  color: map-get($colors, main);
-  color: color(main);
-  transition: all 0.2s;
-
-  &:hover {
-    text-shadow: 0 0 0.35px map-get($colors, main), 0 0 0.35px map-get($colors, main);
-    text-shadow: 0 0 0.35px color(main), 0 0 0.35px color(main);
   }
 }

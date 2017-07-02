@@ -7,6 +7,16 @@ categories: internet
 ---
 As with all technology, the internet comes with a long list of terms and acronyms that probably don't mean much to the average person on the street. But trust me, all that jargon can be translated into plain English, which I hope you understand, because multi-language support for this book is not coming any time soon.
 
+## Things you here in meetings
+
+### Information architecture (IA)
+
+### User experience (UX)
+
+
+
+## The technical stuff
+
 ### Protocol
 
 Communication networks can function because of something known as protocols, the most crucial aspect of telecommunications. A **protocol** is an agreed set of rules and standards that allow devices to communicate with each other. Connectivity is something most people don't think twice about these days, in fact, some people *expect* their devices to all speak to one another. But just a few decades ago, computers couldn't even talk to each other. 
