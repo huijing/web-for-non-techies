@@ -17,3 +17,5 @@ All the icons used in the graphic on the cover page are from the Noun Project, c
 - Shopping Cart by Nicholas Menghini
 - Film by Simple Icons
 - Mail by Edward Boatman, Heart by Vicons Design
+
+The website uses two fonts, Abel by [MADType](http://www.madtype.com/about/) for headers and Sorts Mill Goudy by [The League of Moveable Type](https://www.theleagueofmoveabletype.com/).
