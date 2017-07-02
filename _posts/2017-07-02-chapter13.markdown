@@ -2,7 +2,7 @@
 layout: post
 title: "Attributions"
 date: 2017-07-02
-published: true
+public: true
 ---
 
 All the icons used in the graphic on the cover page are from the Noun Project, credit to the following individuals: 
