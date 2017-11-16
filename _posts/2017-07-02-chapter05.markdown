@@ -12,4 +12,4 @@ Let's talk a little bit about how stuff shows up on your computer screen.
 ## Related resources
 - [How Browsers Work: Behind the scenes of modern web browsers](http://www.html5rocks.com/en/tutorials/internals/howbrowserswork/) by [Tali Garsiel](http://taligarsiel.com/) (*The best primer on how browsers work*)
 - [How browsers work internally](https://vimeo.com/44182484) by [Tali Garsiel](http://taligarsiel.com/) (*Conference talk at Front Trends 2012*)
-
+- [Introduction to WebRender – Part 1 – Browsers today](https://mozillagfx.wordpress.com/2017/09/21/introduction-to-webrender-part-1-browsers-today/)

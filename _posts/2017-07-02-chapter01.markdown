@@ -163,3 +163,4 @@ The internet in its entirety is not owned by anyone. Part of the physical infras
 - [Brief history of the internet](http://www.internetsociety.org/internet/what-internet/history-internet/brief-history-internet) by [Internet Society](http://www.internetsociety.org/)
 - [How the Internet works: Submarine fiber, brains in jars, and coaxial cables](http://arstechnica.com/information-technology/2016/05/how-the-internet-works-submarine-cables-data-centres-last-mile/)
 - [Internet World Stats](http://www.internetworldstats.com/stats.htm) by [Miniwatts Marketing Group](http://www.miniwatts.com/)
+- [The People's Cloud](http://www.thepeoplescloud.org/)
